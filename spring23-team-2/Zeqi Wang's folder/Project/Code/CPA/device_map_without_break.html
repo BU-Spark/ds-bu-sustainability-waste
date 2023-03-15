@@ -1,0 +1,717 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_56ff4bb715c77e6e2ce013693d055316 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_56ff4bb715c77e6e2ce013693d055316" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_56ff4bb715c77e6e2ce013693d055316 = L.map(
+                "map_56ff4bb715c77e6e2ce013693d055316",
+                {
+                    center: [42.3501510620117, -71.098258972168],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 15,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_703a36075c5387b112e4ba166be8d56c = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_56ff4bb715c77e6e2ce013693d055316);
+        
+    
+            var marker_4da2b7e6c7bf1530996ffa2f8e4c952c = L.marker(
+                [42.3432652767691, -71.1049151366523],
+                {}
+            ).addTo(map_56ff4bb715c77e6e2ce013693d055316);
+        
+    
+            var icon_c2e9a0db3946be5385ff0937d12d7811 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_4da2b7e6c7bf1530996ffa2f8e4c952c.setIcon(icon_c2e9a0db3946be5385ff0937d12d7811);
+        
+    
+        var popup_e9d198350fee84ff2e72ae10cfe44248 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_75db48b12232f749d04eeada028cd3f3 = $(`<div id="html_75db48b12232f749d04eeada028cd3f3" style="width: 100.0%; height: 100.0%;"> <div style="font-size: 16px;">     <strong>Device No.:</strong> 24363<br>     <strong>Site Name:</strong> BU Fenway<br>     <strong>Correlation Coefficient:</strong> -0.18 </div> </div>`)[0];
+                popup_e9d198350fee84ff2e72ae10cfe44248.setContent(html_75db48b12232f749d04eeada028cd3f3);
+            
+        
+
+        marker_4da2b7e6c7bf1530996ffa2f8e4c952c.bindPopup(popup_e9d198350fee84ff2e72ae10cfe44248)
+        ;
+
+        
+    
+    
+            var marker_516ea12475aebf97a26b994e191cc5d2 = L.marker(
+                [42.3477639059822, -71.1043083378412],
+                {}
+            ).addTo(map_56ff4bb715c77e6e2ce013693d055316);
+        
+    
+            var icon_8cfa7576e67378ea7cade062cf44dce4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_516ea12475aebf97a26b994e191cc5d2.setIcon(icon_8cfa7576e67378ea7cade062cf44dce4);
+        
+    
+        var popup_15509336966d6b2e3e408389a743bc35 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_39f9aefd35c995f969335f31534298fd = $(`<div id="html_39f9aefd35c995f969335f31534298fd" style="width: 100.0%; height: 100.0%;"> <div style="font-size: 16px;">     <strong>Device No.:</strong> 24572<br>     <strong>Site Name:</strong> BU #18 - Warren Hall<br>     <strong>Correlation Coefficient:</strong> -0.10 </div> </div>`)[0];
+                popup_15509336966d6b2e3e408389a743bc35.setContent(html_39f9aefd35c995f969335f31534298fd);
+            
+        
+
+        marker_516ea12475aebf97a26b994e191cc5d2.bindPopup(popup_15509336966d6b2e3e408389a743bc35)
+        ;
+
+        
+    
+    
+            var marker_64ef7039522535cb042b744413fc36c8 = L.marker(
+                [42.35325935, -71.1178204938349],
+                {}
+            ).addTo(map_56ff4bb715c77e6e2ce013693d055316);
+        
+    
+            var icon_7d91842182a4e44570848551bc34d332 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_64ef7039522535cb042b744413fc36c8.setIcon(icon_7d91842182a4e44570848551bc34d332);
+        
+    
+        var popup_42eccdbed572b331b40465bb23c5ed62 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9688e7e754d9c575680bbe16c07ffd58 = $(`<div id="html_9688e7e754d9c575680bbe16c07ffd58" style="width: 100.0%; height: 100.0%;"> <div style="font-size: 16px;">     <strong>Device No.:</strong> 24668<br>     <strong>Site Name:</strong> BU #48 Student Village #2<br>     <strong>Correlation Coefficient:</strong> -0.10 </div> </div>`)[0];
+                popup_42eccdbed572b331b40465bb23c5ed62.setContent(html_9688e7e754d9c575680bbe16c07ffd58);
+            
+        
+
+        marker_64ef7039522535cb042b744413fc36c8.bindPopup(popup_42eccdbed572b331b40465bb23c5ed62)
+        ;
+
+        
+    
+    
+            var marker_26a1372ef0f99ccba45658e9c33d2108 = L.marker(
+                [42.3522233, -71.1177300144132],
+                {}
+            ).addTo(map_56ff4bb715c77e6e2ce013693d055316);
+        
+    
+            var icon_53ceccec806f1079836f3f7bc10a5072 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "gray", "prefix": "glyphicon"}
+            );
+            marker_26a1372ef0f99ccba45658e9c33d2108.setIcon(icon_53ceccec806f1079836f3f7bc10a5072);
+        
+    
+        var popup_d220b91c0365b9088b58d68d61444af1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a351b2a20e245f07a465051c88b4318d = $(`<div id="html_a351b2a20e245f07a465051c88b4318d" style="width: 100.0%; height: 100.0%;"> <div style="font-size: 16px;">     <strong>Device No.:</strong> 24990<br>     <strong>Site Name:</strong> BU #108 Agganis Arena<br>     <strong>Correlation Coefficient:</strong> 0.03 </div> </div>`)[0];
+                popup_d220b91c0365b9088b58d68d61444af1.setContent(html_a351b2a20e245f07a465051c88b4318d);
+            
+        
+
+        marker_26a1372ef0f99ccba45658e9c33d2108.bindPopup(popup_d220b91c0365b9088b58d68d61444af1)
+        ;
+
+        
+    
+    
+            var marker_124413543f328a4df7b3eccb6953fc14 = L.marker(
+                [42.3513856, -71.1155187],
+                {}
+            ).addTo(map_56ff4bb715c77e6e2ce013693d055316);
+        
+    
+            var icon_a011b81808b9749230733c12e25045c5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_124413543f328a4df7b3eccb6953fc14.setIcon(icon_a011b81808b9749230733c12e25045c5);
+        
+    
+        var popup_ced5ebc940ab319c9dabe1e256fdf272 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2f12d2639c555316b0517661c0cde4c1 = $(`<div id="html_2f12d2639c555316b0517661c0cde4c1" style="width: 100.0%; height: 100.0%;"> <div style="font-size: 16px;">     <strong>Device No.:</strong> 39569<br>     <strong>Site Name:</strong> BU #102 Student Health Services<br>     <strong>Correlation Coefficient:</strong> -0.38 </div> </div>`)[0];
+                popup_ced5ebc940ab319c9dabe1e256fdf272.setContent(html_2f12d2639c555316b0517661c0cde4c1);
+            
+        
+
+        marker_124413543f328a4df7b3eccb6953fc14.bindPopup(popup_ced5ebc940ab319c9dabe1e256fdf272)
+        ;
+
+        
+    
+    
+            var marker_2d9e48526cfca450dcd4fefd698102ab = L.marker(
+                [42.3500127660329, -71.0941829629419],
+                {}
+            ).addTo(map_56ff4bb715c77e6e2ce013693d055316);
+        
+    
+            var icon_a25c9f9b583a17acbafdc662c5f95753 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "gray", "prefix": "glyphicon"}
+            );
+            marker_2d9e48526cfca450dcd4fefd698102ab.setIcon(icon_a25c9f9b583a17acbafdc662c5f95753);
+        
+    
+        var popup_ff6526b9a8c6b93ba97a084878cd8a88 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_446023fbf425cdc7ad0187249242bea9 = $(`<div id="html_446023fbf425cdc7ad0187249242bea9" style="width: 100.0%; height: 100.0%;"> <div style="font-size: 16px;">     <strong>Device No.:</strong> 39599<br>     <strong>Site Name:</strong> BU #46 30 Bay State<br>     <strong>Correlation Coefficient:</strong> -0.08 </div> </div>`)[0];
+                popup_ff6526b9a8c6b93ba97a084878cd8a88.setContent(html_446023fbf425cdc7ad0187249242bea9);
+            
+        
+
+        marker_2d9e48526cfca450dcd4fefd698102ab.bindPopup(popup_ff6526b9a8c6b93ba97a084878cd8a88)
+        ;
+
+        
+    
+    
+            var marker_bce06d801ea1ebd206841b850676a756 = L.marker(
+                [42.3483655, -71.1015899],
+                {}
+            ).addTo(map_56ff4bb715c77e6e2ce013693d055316);
+        
+    
+            var icon_6b05f377948a9110d76e649452831b14 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_bce06d801ea1ebd206841b850676a756.setIcon(icon_6b05f377948a9110d76e649452831b14);
+        
+    
+        var popup_0629cf3970b369214d85d268eb0e456d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8ad791ecf1df7af731451a10e2e04731 = $(`<div id="html_8ad791ecf1df7af731451a10e2e04731" style="width: 100.0%; height: 100.0%;"> <div style="font-size: 16px;">     <strong>Device No.:</strong> 39600<br>     <strong>Site Name:</strong> BU #38 Life Sciences<br>     <strong>Correlation Coefficient:</strong> 0.27 </div> </div>`)[0];
+                popup_0629cf3970b369214d85d268eb0e456d.setContent(html_8ad791ecf1df7af731451a10e2e04731);
+            
+        
+
+        marker_bce06d801ea1ebd206841b850676a756.bindPopup(popup_0629cf3970b369214d85d268eb0e456d)
+        ;
+
+        
+    
+    
+            var marker_2db9a729b3b32d8272639e83d10061b6 = L.marker(
+                [42.3505249023438, -71.1116714477539],
+                {}
+            ).addTo(map_56ff4bb715c77e6e2ce013693d055316);
+        
+    
+            var icon_3a1d9c519b163d72218c05f8a7b7d8d2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_2db9a729b3b32d8272639e83d10061b6.setIcon(icon_3a1d9c519b163d72218c05f8a7b7d8d2);
+        
+    
+        var popup_23425ddb2b8e0cbfc30f8c7f5b664448 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9f40f0f0235200475de8541f9b76ea41 = $(`<div id="html_9f40f0f0235200475de8541f9b76ea41" style="width: 100.0%; height: 100.0%;"> <div style="font-size: 16px;">     <strong>Device No.:</strong> 39665<br>     <strong>Site Name:</strong> BU #96 808 Commonwealth<br>     <strong>Correlation Coefficient:</strong> -0.11 </div> </div>`)[0];
+                popup_23425ddb2b8e0cbfc30f8c7f5b664448.setContent(html_9f40f0f0235200475de8541f9b76ea41);
+            
+        
+
+        marker_2db9a729b3b32d8272639e83d10061b6.bindPopup(popup_23425ddb2b8e0cbfc30f8c7f5b664448)
+        ;
+
+        
+    
+    
+            var marker_495c9119795a0eec2ac0915c1e5ff842 = L.marker(
+                [42.34963975, -71.0997322692519],
+                {}
+            ).addTo(map_56ff4bb715c77e6e2ce013693d055316);
+        
+    
+            var icon_d092ae48b7704652364e641ce6de2d31 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "gray", "prefix": "glyphicon"}
+            );
+            marker_495c9119795a0eec2ac0915c1e5ff842.setIcon(icon_d092ae48b7704652364e641ce6de2d31);
+        
+    
+        var popup_07c6ad69af76ff5b9ba880735f0207d7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_711284a15400b008d0d1c26a798ada80 = $(`<div id="html_711284a15400b008d0d1c26a798ada80" style="width: 100.0%; height: 100.0%;"> <div style="font-size: 16px;">     <strong>Device No.:</strong> 39667<br>     <strong>Site Name:</strong> BU #72 Rafik B Hariri<br>     <strong>Correlation Coefficient:</strong> 0.05 </div> </div>`)[0];
+                popup_07c6ad69af76ff5b9ba880735f0207d7.setContent(html_711284a15400b008d0d1c26a798ada80);
+            
+        
+
+        marker_495c9119795a0eec2ac0915c1e5ff842.bindPopup(popup_07c6ad69af76ff5b9ba880735f0207d7)
+        ;
+
+        
+    
+    
+            var marker_6b6d3d46cabe8fe7fa4f6afd5641e681 = L.marker(
+                [42.3503152, -71.0970259],
+                {}
+            ).addTo(map_56ff4bb715c77e6e2ce013693d055316);
+        
+    
+            var icon_f596b407d899ba23050e772fa5f737fb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_6b6d3d46cabe8fe7fa4f6afd5641e681.setIcon(icon_f596b407d899ba23050e772fa5f737fb);
+        
+    
+        var popup_3362d49a637445293db395f784fd7a57 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_55c33b9c1f6b7a83663912d1c027df8b = $(`<div id="html_55c33b9c1f6b7a83663912d1c027df8b" style="width: 100.0%; height: 100.0%;"> <div style="font-size: 16px;">     <strong>Device No.:</strong> 39668<br>     <strong>Site Name:</strong> BU #105 Kilachand Hall<br>     <strong>Correlation Coefficient:</strong> -0.25 </div> </div>`)[0];
+                popup_3362d49a637445293db395f784fd7a57.setContent(html_55c33b9c1f6b7a83663912d1c027df8b);
+            
+        
+
+        marker_6b6d3d46cabe8fe7fa4f6afd5641e681.bindPopup(popup_3362d49a637445293db395f784fd7a57)
+        ;
+
+        
+    
+    
+            var marker_e058d0f1bf9c9df1a3f1d3d09ac75780 = L.marker(
+                [42.3522328, -71.1156835],
+                {}
+            ).addTo(map_56ff4bb715c77e6e2ce013693d055316);
+        
+    
+            var icon_f6b7e94edccafb228822f6d9c66f06e3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "gray", "prefix": "glyphicon"}
+            );
+            marker_e058d0f1bf9c9df1a3f1d3d09ac75780.setIcon(icon_f6b7e94edccafb228822f6d9c66f06e3);
+        
+    
+        var popup_ca0334cafeb1d2aadce550bb263876ac = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ab3a5754df134b7256e3bc87d1d8907e = $(`<div id="html_ab3a5754df134b7256e3bc87d1d8907e" style="width: 100.0%; height: 100.0%;"> <div style="font-size: 16px;">     <strong>Device No.:</strong> 39669<br>     <strong>Site Name:</strong> BU #2 Student Village<br>     <strong>Correlation Coefficient:</strong> -0.05 </div> </div>`)[0];
+                popup_ca0334cafeb1d2aadce550bb263876ac.setContent(html_ab3a5754df134b7256e3bc87d1d8907e);
+            
+        
+
+        marker_e058d0f1bf9c9df1a3f1d3d09ac75780.bindPopup(popup_ca0334cafeb1d2aadce550bb263876ac)
+        ;
+
+        
+    
+    
+            var marker_888dcb8a1d9a2f0755a50d1123a54c3a = L.marker(
+                [42.3493957, -71.1040558],
+                {}
+            ).addTo(map_56ff4bb715c77e6e2ce013693d055316);
+        
+    
+            var icon_c378834ad0f87142a6a692603c432fdb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_888dcb8a1d9a2f0755a50d1123a54c3a.setIcon(icon_c378834ad0f87142a6a692603c432fdb);
+        
+    
+        var popup_452baf7c80e0d9f7e3eec6111df7b891 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fb36fd17592a6498e3c7861493700e33 = $(`<div id="html_fb36fd17592a6498e3c7861493700e33" style="width: 100.0%; height: 100.0%;"> <div style="font-size: 16px;">     <strong>Device No.:</strong> 39671<br>     <strong>Site Name:</strong> BU #82 Warren Towers 35<br>     <strong>Correlation Coefficient:</strong> 0.28 </div> </div>`)[0];
+                popup_452baf7c80e0d9f7e3eec6111df7b891.setContent(html_fb36fd17592a6498e3c7861493700e33);
+            
+        
+
+        marker_888dcb8a1d9a2f0755a50d1123a54c3a.bindPopup(popup_452baf7c80e0d9f7e3eec6111df7b891)
+        ;
+
+        
+    
+    
+            var marker_a45f7c4a2f938fc2f9f0c1e2faa9fcf6 = L.marker(
+                [42.34976335, -71.0979666937158],
+                {}
+            ).addTo(map_56ff4bb715c77e6e2ce013693d055316);
+        
+    
+            var icon_8473debbc97a4e34e4fb58fc1d997afd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_a45f7c4a2f938fc2f9f0c1e2faa9fcf6.setIcon(icon_8473debbc97a4e34e4fb58fc1d997afd);
+        
+    
+        var popup_941888dd43d0385074482a1e7bda3fb0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3377f7ca36e7a8f29e9d764e2f90dc51 = $(`<div id="html_3377f7ca36e7a8f29e9d764e2f90dc51" style="width: 100.0%; height: 100.0%;"> <div style="font-size: 16px;">     <strong>Device No.:</strong> 39673<br>     <strong>Site Name:</strong> BU #4 Yawkey<br>     <strong>Correlation Coefficient:</strong> -0.33 </div> </div>`)[0];
+                popup_941888dd43d0385074482a1e7bda3fb0.setContent(html_3377f7ca36e7a8f29e9d764e2f90dc51);
+            
+        
+
+        marker_a45f7c4a2f938fc2f9f0c1e2faa9fcf6.bindPopup(popup_941888dd43d0385074482a1e7bda3fb0)
+        ;
+
+        
+    
+    
+            var marker_24428210ae16db46dc07cf8a766c5ee1 = L.marker(
+                [42.3525009155273, -71.1211242675781],
+                {}
+            ).addTo(map_56ff4bb715c77e6e2ce013693d055316);
+        
+    
+            var icon_08b916204d930c02ae78e0041dd2d03b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "gray", "prefix": "glyphicon"}
+            );
+            marker_24428210ae16db46dc07cf8a766c5ee1.setIcon(icon_08b916204d930c02ae78e0041dd2d03b);
+        
+    
+        var popup_3b40bf40ac9ff7bca97631f9d7742c4d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4d00b17d46e6d8f0127d2d8ed8490700 = $(`<div id="html_4d00b17d46e6d8f0127d2d8ed8490700" style="width: 100.0%; height: 100.0%;"> <div style="font-size: 16px;">     <strong>Device No.:</strong> 39674<br>     <strong>Site Name:</strong> BU #43 West Loading Dock<br>     <strong>Correlation Coefficient:</strong> -0.01 </div> </div>`)[0];
+                popup_3b40bf40ac9ff7bca97631f9d7742c4d.setContent(html_4d00b17d46e6d8f0127d2d8ed8490700);
+            
+        
+
+        marker_24428210ae16db46dc07cf8a766c5ee1.bindPopup(popup_3b40bf40ac9ff7bca97631f9d7742c4d)
+        ;
+
+        
+    
+    
+            var marker_b48ceb102b0de5a76cd8002f6db28f23 = L.marker(
+                [42.35029315, -71.1044912076291],
+                {}
+            ).addTo(map_56ff4bb715c77e6e2ce013693d055316);
+        
+    
+            var icon_cea37df84d2f099fdbc688a158b0430c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_b48ceb102b0de5a76cd8002f6db28f23.setIcon(icon_cea37df84d2f099fdbc688a158b0430c);
+        
+    
+        var popup_76e551893b0d358543b1e285321af938 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ffad8cadb62389846f8903bc54a98d3e = $(`<div id="html_ffad8cadb62389846f8903bc54a98d3e" style="width: 100.0%; height: 100.0%;"> <div style="font-size: 16px;">     <strong>Device No.:</strong> 39685<br>     <strong>Site Name:</strong> BU 685 Comm Ave<br>     <strong>Correlation Coefficient:</strong> -0.28 </div> </div>`)[0];
+                popup_76e551893b0d358543b1e285321af938.setContent(html_ffad8cadb62389846f8903bc54a98d3e);
+            
+        
+
+        marker_b48ceb102b0de5a76cd8002f6db28f23.bindPopup(popup_76e551893b0d358543b1e285321af938)
+        ;
+
+        
+    
+    
+            var marker_26d08a0e95cd4c86b322bc53c0ed07f7 = L.marker(
+                [42.35097115, -71.1089790044789],
+                {}
+            ).addTo(map_56ff4bb715c77e6e2ce013693d055316);
+        
+    
+            var icon_8081a7364545c1fee0ae181686efee39 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_26d08a0e95cd4c86b322bc53c0ed07f7.setIcon(icon_8081a7364545c1fee0ae181686efee39);
+        
+    
+        var popup_580ec2f67b06ec2588f88f019acaa59b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f6364ae836b65514cc06c09dbb21c7d5 = $(`<div id="html_f6364ae836b65514cc06c09dbb21c7d5" style="width: 100.0%; height: 100.0%;"> <div style="font-size: 16px;">     <strong>Device No.:</strong> 39686<br>     <strong>Site Name:</strong> BU #93 George Sherman Union<br>     <strong>Correlation Coefficient:</strong> -0.18 </div> </div>`)[0];
+                popup_580ec2f67b06ec2588f88f019acaa59b.setContent(html_f6364ae836b65514cc06c09dbb21c7d5);
+            
+        
+
+        marker_26d08a0e95cd4c86b322bc53c0ed07f7.bindPopup(popup_580ec2f67b06ec2588f88f019acaa59b)
+        ;
+
+        
+    
+    
+            var marker_66e23a3f55987a09f1de084411e728e4 = L.marker(
+                [42.3510643, -71.1075071069339],
+                {}
+            ).addTo(map_56ff4bb715c77e6e2ce013693d055316);
+        
+    
+            var icon_bf0de6ba742d3ababca9f889cdd716cc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_66e23a3f55987a09f1de084411e728e4.setIcon(icon_bf0de6ba742d3ababca9f889cdd716cc);
+        
+    
+        var popup_9a2fa5ecd3e7a04980c16d41f6bd8307 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c588d7e098fbd0fb8a247e7e4fc2d4c0 = $(`<div id="html_c588d7e098fbd0fb8a247e7e4fc2d4c0" style="width: 100.0%; height: 100.0%;"> <div style="font-size: 16px;">     <strong>Device No.:</strong> 39688<br>     <strong>Site Name:</strong> BU #90 - School of Law<br>     <strong>Correlation Coefficient:</strong> -0.10 </div> </div>`)[0];
+                popup_9a2fa5ecd3e7a04980c16d41f6bd8307.setContent(html_c588d7e098fbd0fb8a247e7e4fc2d4c0);
+            
+        
+
+        marker_66e23a3f55987a09f1de084411e728e4.bindPopup(popup_9a2fa5ecd3e7a04980c16d41f6bd8307)
+        ;
+
+        
+    
+    
+            var marker_7563d8049338fcb1746dbdf68b1a4eb0 = L.marker(
+                [38.1758829, -85.7745116],
+                {}
+            ).addTo(map_56ff4bb715c77e6e2ce013693d055316);
+        
+    
+            var icon_da19ade7005b1dd7c828cd7e92d7a253 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "gray", "prefix": "glyphicon"}
+            );
+            marker_7563d8049338fcb1746dbdf68b1a4eb0.setIcon(icon_da19ade7005b1dd7c828cd7e92d7a253);
+        
+    
+        var popup_4231fbeae192b3c07224b306bc0459b3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c631cc888a308603184aae1ae39d3d72 = $(`<div id="html_c631cc888a308603184aae1ae39d3d72" style="width: 100.0%; height: 100.0%;"> <div style="font-size: 16px;">     <strong>Device No.:</strong> 39689<br>     <strong>Site Name:</strong> BU #87 College of Engineering<br>     <strong>Correlation Coefficient:</strong> -0.06 </div> </div>`)[0];
+                popup_4231fbeae192b3c07224b306bc0459b3.setContent(html_c631cc888a308603184aae1ae39d3d72);
+            
+        
+
+        marker_7563d8049338fcb1746dbdf68b1a4eb0.bindPopup(popup_4231fbeae192b3c07224b306bc0459b3)
+        ;
+
+        
+    
+    
+            var marker_5fe3f18857063d868196d5ac2505bd6c = L.marker(
+                [42.332236, -71.0754183],
+                {}
+            ).addTo(map_56ff4bb715c77e6e2ce013693d055316);
+        
+    
+            var icon_121ea4761c6815460f1be30ca8956a15 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_5fe3f18857063d868196d5ac2505bd6c.setIcon(icon_121ea4761c6815460f1be30ca8956a15);
+        
+    
+        var popup_d94c8475bf45a140af2cb010e21c5bc5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e47a5892ac41eff987cd9a8a0fff0382 = $(`<div id="html_e47a5892ac41eff987cd9a8a0fff0382" style="width: 100.0%; height: 100.0%;"> <div style="font-size: 16px;">     <strong>Device No.:</strong> 39691<br>     <strong>Site Name:</strong> BU Med #815 Albany<br>     <strong>Correlation Coefficient:</strong> -0.38 </div> </div>`)[0];
+                popup_d94c8475bf45a140af2cb010e21c5bc5.setContent(html_e47a5892ac41eff987cd9a8a0fff0382);
+            
+        
+
+        marker_5fe3f18857063d868196d5ac2505bd6c.bindPopup(popup_d94c8475bf45a140af2cb010e21c5bc5)
+        ;
+
+        
+    
+    
+            var marker_bf4d8c264f768e19946d9fad7eae70a7 = L.marker(
+                [42.31663975, -71.0646115257647],
+                {}
+            ).addTo(map_56ff4bb715c77e6e2ce013693d055316);
+        
+    
+            var icon_a134e0a794f2ddbeb7204a51e6741ced = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_bf4d8c264f768e19946d9fad7eae70a7.setIcon(icon_a134e0a794f2ddbeb7204a51e6741ced);
+        
+    
+        var popup_3dff30a34dc57efaa307e615c50bd1e2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5cc31609ecabfbb68d24ee001796587e = $(`<div id="html_5cc31609ecabfbb68d24ee001796587e" style="width: 100.0%; height: 100.0%;"> <div style="font-size: 16px;">     <strong>Device No.:</strong> 39692<br>     <strong>Site Name:</strong> BU MED - 15 Stoughton<br>     <strong>Correlation Coefficient:</strong> -0.45 </div> </div>`)[0];
+                popup_3dff30a34dc57efaa307e615c50bd1e2.setContent(html_5cc31609ecabfbb68d24ee001796587e);
+            
+        
+
+        marker_bf4d8c264f768e19946d9fad7eae70a7.bindPopup(popup_3dff30a34dc57efaa307e615c50bd1e2)
+        ;
+
+        
+    
+    
+            var marker_c48c049511839781db8fa90eae5a4bdc = L.marker(
+                [42.3501510620117, -71.098258972168],
+                {}
+            ).addTo(map_56ff4bb715c77e6e2ce013693d055316);
+        
+    
+            var icon_ba25aa5e8788c82b484935ebdbd8496a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "gray", "prefix": "glyphicon"}
+            );
+            marker_c48c049511839781db8fa90eae5a4bdc.setIcon(icon_ba25aa5e8788c82b484935ebdbd8496a);
+        
+    
+        var popup_0818be3168cadf800e9d4799dfb7f6fe = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_51cf4ef64ce443669e9e3978ad1b7a67 = $(`<div id="html_51cf4ef64ce443669e9e3978ad1b7a67" style="width: 100.0%; height: 100.0%;"> <div style="font-size: 16px;">     <strong>Device No.:</strong> 39693<br>     <strong>Site Name:</strong> BU 140 Bay State Rd<br>     <strong>Correlation Coefficient:</strong> -0.08 </div> </div>`)[0];
+                popup_0818be3168cadf800e9d4799dfb7f6fe.setContent(html_51cf4ef64ce443669e9e3978ad1b7a67);
+            
+        
+
+        marker_c48c049511839781db8fa90eae5a4bdc.bindPopup(popup_0818be3168cadf800e9d4799dfb7f6fe)
+        ;
+
+        
+    
+    
+            var marker_2de93846e4a2771b85aea7aa9b3fe3f7 = L.marker(
+                [42.3354856, -71.0702094114003],
+                {}
+            ).addTo(map_56ff4bb715c77e6e2ce013693d055316);
+        
+    
+            var icon_72dbec49a79ff333d0537687147a7ec3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "gray", "prefix": "glyphicon"}
+            );
+            marker_2de93846e4a2771b85aea7aa9b3fe3f7.setIcon(icon_72dbec49a79ff333d0537687147a7ec3);
+        
+    
+        var popup_c0ea8bbadea8757d835e41b01f6a2ace = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7a67c637480317fd0614772804e142b6 = $(`<div id="html_7a67c637480317fd0614772804e142b6" style="width: 100.0%; height: 100.0%;"> <div style="font-size: 16px;">     <strong>Device No.:</strong> 39874<br>     <strong>Site Name:</strong> BU Med 700<br>     <strong>Correlation Coefficient:</strong> 0.01 </div> </div>`)[0];
+                popup_c0ea8bbadea8757d835e41b01f6a2ace.setContent(html_7a67c637480317fd0614772804e142b6);
+            
+        
+
+        marker_2de93846e4a2771b85aea7aa9b3fe3f7.bindPopup(popup_c0ea8bbadea8757d835e41b01f6a2ace)
+        ;
+
+        
+    
+    
+            var marker_07190a90857680711b2abc42bab577c3 = L.marker(
+                [42.3491905, -71.1060852],
+                {}
+            ).addTo(map_56ff4bb715c77e6e2ce013693d055316);
+        
+    
+            var icon_1d44f60d5a9a8c4a49243c9f7b6ee8c3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_07190a90857680711b2abc42bab577c3.setIcon(icon_1d44f60d5a9a8c4a49243c9f7b6ee8c3);
+        
+    
+        var popup_37bce3dd39acfa17484f3696bfeb90e3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_eed955fa753bb779ca2279202ffa2154 = $(`<div id="html_eed955fa753bb779ca2279202ffa2154" style="width: 100.0%; height: 100.0%;"> <div style="font-size: 16px;">     <strong>Device No.:</strong> 39878<br>     <strong>Site Name:</strong> BU #35 22 Babbit<br>     <strong>Correlation Coefficient:</strong> 0.16 </div> </div>`)[0];
+                popup_37bce3dd39acfa17484f3696bfeb90e3.setContent(html_eed955fa753bb779ca2279202ffa2154);
+            
+        
+
+        marker_07190a90857680711b2abc42bab577c3.bindPopup(popup_37bce3dd39acfa17484f3696bfeb90e3)
+        ;
+
+        
+    
+    
+            var marker_d5c37fdbda0f41f4e8fccab4180e2b0f = L.marker(
+                [42.348804, -71.0995168492276],
+                {}
+            ).addTo(map_56ff4bb715c77e6e2ce013693d055316);
+        
+    
+            var icon_95fa663319dd947a7652514cd2c51247 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_d5c37fdbda0f41f4e8fccab4180e2b0f.setIcon(icon_95fa663319dd947a7652514cd2c51247);
+        
+    
+        var popup_e11f93e9862a970f2a693fc590da3064 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d0fc81346d8c28e52bd084524c785b09 = $(`<div id="html_d0fc81346d8c28e52bd084524c785b09" style="width: 100.0%; height: 100.0%;"> <div style="font-size: 16px;">     <strong>Device No.:</strong> 39880<br>     <strong>Site Name:</strong> BU #69 - Graduate Apartments<br>     <strong>Correlation Coefficient:</strong> -0.32 </div> </div>`)[0];
+                popup_e11f93e9862a970f2a693fc590da3064.setContent(html_d0fc81346d8c28e52bd084524c785b09);
+            
+        
+
+        marker_d5c37fdbda0f41f4e8fccab4180e2b0f.bindPopup(popup_e11f93e9862a970f2a693fc590da3064)
+        ;
+
+        
+    
+</script>
+</html>
