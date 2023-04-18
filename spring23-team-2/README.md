@@ -1,4 +1,5 @@
-#README
+#
+README
 
 (TOBE DELETED)
 All teams must:
@@ -6,7 +7,9 @@ All teams must:
 Create README.md file in the github repo in your team folder. This must summarize what the project is, what the team did, how to navigate the different files in the repo, and the information any future users would need to have in order to get the code running.
 
 
-##Project Description
+##
+Project Description
+
 BU Sustainability supports the transformation of Boston University’s planning, operations, and culture toward a sustainable and equitable future.They have pulled multiple spreadsheets with data from their 3rd party vendor Contelligent and our waste vendor Casella. Contelligent provides PSI fullness monitoring of our compactors. The client has provided detailed data sets from each monitor, overall data, temperature data, and waste generation spreadsheet by data from Casella.  The analysis of these datasets will inform BU Sustainability how they can potentially improve where to store waste if there are adverse weather effects.
 
 ##
