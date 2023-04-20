@@ -12,3 +12,22 @@ At the end of the semester during project wrap up open a final Pull Request to <
 To  add yourself to the repository, open a Pull Request modifying `COLLABORATORS`, entering your GitHub username in a newline.
 
 All Pull Requests must follow the Pull Request Template, with a title formatted like such `[Project Name]: <Descriptive Title>`
+
+# README
+BU Sustainability is responsible for the transformation of Boston University’s planning, operations, and culture toward a sustainable and equitable future.They have provided our team with multiple spreadsheets, containing data from their 3rd party vendor Contelligent and their waste vendor Casella. By analyzing these datasets, our team aimed to identify opportunities for improving waste storage during adverse weather conditions. Specifically, we were seeking to answer two main questions: whether weather affects waste generation and, if so, how it does so. Our team first began by analyzing the data through preliminary observations, and after some pre-processing of the data, provided some conclusionary results to answer the original questions, as well as supporting data regarding other factors that impacted waste generation.
+
+## All code is available in notebooks in each team member’s respective Git branch.
+
+## Junyi’s Contribution: 
+My contribution includes data collection, dataset management and data analysis. Specifically, I enriched the given dataset by collecting data from NOAA Database to explore more features other than temperature. I also explored the weather impact by looking at correlations between features and psi/tonnages from the perspective of device(site). Based on correlations, I tried to cluster the sites. Moreover, I attempted to make a prediction model that predict the next day’s waste output on data from last few days.
+
+## Abdelazim’s Contribution: 
+I focused on the BU-Daily weights document, starting my research by attempting to find a correlation between the tonnages of Trash, Compost, and Recycling containers. I then decided to visualize the data from this document in different ways, from charts to dynamic heat maps in order to visualize how containers across campus change in their outputs throughout the year. 
+
+## Karan’s Contribution: 
+I focused on the following, as well as coordinating the team’s work and deliverables with client and PM meetings
+- Preliminary analysis on waste generation and compactions
+- Data audit for readings, daily weights, psi readings, alert, events files 
+- Data merging process and joining across different files
+- Timeline plots for each site by different material type, and analysis by type.
+- Clustering sites by tonnage and temperature
