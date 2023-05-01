@@ -7,7 +7,9 @@ BU Sustainability supports the transformation of Boston University’s planning,
 
 ## Introduction
 The aim of this project is to support BU's Sustainability department in their efforts to transform the university's planning, operations, and culture towards a sustainable and equitable future. Specifically, the project seeks to investigate the correlation between weather conditions and waste production and storage. To accomplish this, we will analyze detailed data sets from various sources, including monitors, overall data, temperature data, and waste generation spreadsheets from Casella.
+
 Our analysis of these datasets will provide valuable insights to BU Sustainability, enabling them to identify potential areas for waste storage improvement in the event of adverse weather conditions. Through a comprehensive analysis of the data provided by both the Sustainability Department and third-party vendors, the project aims to deepen our understanding of how external factors impact the waste collection process.
+
 Our ultimate goal is to offer insights that will help to enhance the waste collection process and support BU's sustainability objectives.
 
 
