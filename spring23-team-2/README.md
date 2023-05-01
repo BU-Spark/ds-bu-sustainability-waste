@@ -11,10 +11,9 @@ The research I focused on was finding out if there is a relationship between tem
 ## Timur Zhunussov:
 I have addressed additional data like inconsistencies in the temperature data by merging readings from different locations and comparing them with historical data from NCEI CDO, resulting in nearly identical data. Additionally, I tried to distinguish between compactions and waste pickups, although interpreting the data was challenging due to its density. By applying smoothing techniques and analyzing the PSI values, we gained insights into waste pickup patterns. Finally, have tested three models: Linear Regression, Decision Trees, and SVM, to predict temperature. While Linear Regression and SVM showed low or no correlation, Decision Trees performed better, but the possibility of overfitting must be considered.
 
-## Akshad Ramnath:
-
 ## Baicheng Fang:
 Firstly, I use the extracted data from BU_Daily_Weights_FY22 to examine the correlation between waste production and temperature. In some certain cases, there is some correlation but far from fitting to a model.
 Obviously I need to do more feature engineering to improve the model’s performance, so I try to add more features to do multiple linear regression to further analyze the correlation between temperature and other parameters.
 The domain knowledge of waste production yields many factors. Apart from temperature, we suppose pressure is also important. So I use the psi reading data preprocessed by Zeqi. I examine with OLS and simple MSE. I choose 5 out of all given sites for fitting tests, BU #38 Life Sciences 20 has the best performance. I will test the rest in the immediate future. The code has been uploaded to the project's git repository under my branch.
 
+## Akshad Ramnath:
