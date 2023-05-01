@@ -5,9 +5,12 @@
 ### Project Overview
 BU Sustainability is responsible for the transformation of Boston University’s planning, operations, and culture toward a sustainable and equitable future.They have provided our team with multiple spreadsheets, containing data from their 3rd party vendor Contelligent and their waste vendor Casella. By analyzing these datasets, our team aimed to identify opportunities for improving waste storage during adverse weather conditions. Specifically, we were seeking to answer two main questions: whether weather affects waste generation and, if so, how it does so. Our team first began by analyzing the data through preliminary observations, and after some pre-processing of the data, provided some conclusionary results to answer the original questions, as well as supporting data regarding other factors that impacted waste generation.
 
+![Project Overview](poster.png)
+
 ### Important Project File Links:
 - Link to the Google Drive Team Folder: https://drive.google.com/drive/u/1/folders/1d4jZLg0luCfVMGBHrdJcNN7WQWbXumGo
 - Link to Final Presentation Recording: https://bostonu.zoom.us/rec/share/nfy-HijKmoO2RHN7FzWtPk52t8-yQmYuJVUCWS9zx1-OANtj7gXFdPYb-xa9Qx8S.WUwebrdIXjb_A66x
+- Link to Project Poster: https://drive.google.com/file/d/1s4OeenyA9fSxATjfwScocgKeFr-05vIa/view?usp=share_link
 
 ### Description of Files in Repository
 Note that all Team 1 code and deliverables are available in the `spring23-team-1` folder, and the most up to date version of deliverables is in the `team-1-kv` branch. 
