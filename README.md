@@ -9,17 +9,23 @@ BU Sustainability is responsible for the transformation of Boston University’s
 - Link to the Google Drive Team Folder: https://drive.google.com/drive/u/1/folders/1d4jZLg0luCfVMGBHrdJcNN7WQWbXumGo
 - Link to Final Presentation Recording: https://bostonu.zoom.us/rec/share/nfy-HijKmoO2RHN7FzWtPk52t8-yQmYuJVUCWS9zx1-OANtj7gXFdPYb-xa9Qx8S.WUwebrdIXjb_A66x
 
-### Description of Files in Repo
+### Description of Files in Repository
+Note that all Team 1 code and deliverables are available in the `spring23-team-1` folder, and the most up to date version of deliverables is in the `team-1-kv` branch. 
 1. `data` folder contains all the raw data files
 2. `deliverables` folder contains each deliverable pdf file
+3. Code overview for each team member's analysis is outlined in detail in the next section.
 
 
 ### Team Member Contributions
-1. Junyi Zhu: My contribution includes data collection, dataset management and data analysis. Specifically, I enriched the given dataset by collecting data from NOAA Database to explore more features other than temperature. I also explored the weather impact by looking at correlations between features and psi/tonnages from the perspective of device(site). Based on correlations, I tried to cluster the sites. Moreover, I attempted to make a prediction model that predict the next day’s waste output on data from last few days.
+This section outlines the contributions of each team member, and an overview of the code in their branch on Github.
+1. Junyi Zhu, `team-1-JunyiZ`: Contribution includes data collection, dataset management and data analysis. Specifically, enriched the given dataset by collecting data from NOAA Database to explore more features other than temperature. Also explored the weather impact by looking at correlations between features and psi/tonnages from the perspective of device(site). Based on correlations, tried to cluster the sites and attempted to make a LightGBM prediction model that predict the next day’s waste output on data from last few days.<br>
+**Notebook with code and analysis:** `ds-bu-sustainability-waste/spring23-team-1/DataAnalysis_JunyiZhu.ipynb`
 
-2. Abdelazim Lokma: I focused on the BU-Daily weights document, starting my research by attempting to find a correlation between the tonnages of Trash, Compost, and Recycling containers. I then decided to visualize the data from this document in different ways, from charts to dynamic heat maps in order to visualize how containers across campus change in their outputs throughout the year. 
+2. Abdelazim Lokma, `team-1-abdelazim`: Focused on the BU-Daily weights document, starting research by attempting to find a correlation between the tonnages of Trash, Compost, and Recycling containers. Then decided to visualize the data from this document in different ways, from charts to dynamic heat maps in order to visualize how containers across campus change in their outputs throughout the year.<br>
+**Notebook with code and analysis:** `ds-bu-sustainability-waste/spring23-team-1/data/BU-Waste-Analysis-1.ipynb`
 
-3. Karan Vombatkere: I focused on the following, as well as coordinating the team’s work and deliverables with client and PM meetings: Preliminary analysis on waste generation and compactions; Data audit for readings, daily weights, psi readings, alert, events files; Data merging process and joining across different files; Timeline plots for each site by different material type, and analysis by type; Clustering sites by tonnage and temperature
+3. Karan Vombatkere, `team-1-kv`: Focused on the following tasks: Preliminary analysis on waste generation and compactions; Data audit for readings, daily weights, psi readings, alert, events files; Data merging process and joining across different files; Timeline plots for each site by different material type, and analysis by type; Clustering sites by tonnage and temperature. Also worked towards coordinating the team’s work and deliverables with client and PM meetings weekly.<br>
+**Notebook Code and data analysis:** `ds-bu-sustainability-waste/spring23-team-1/DataAnalysis_KV.ipynb`
 
 
 ### Add Users
