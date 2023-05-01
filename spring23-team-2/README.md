@@ -16,6 +16,8 @@ Our ultimate goal is to offer insights that will help to enhance the waste colle
 ## Running the code
 Our team were focusing on different part of works so what you need is using Jupyter notebook or Google Colab to select each different part of work and make sure you select the correct path for the data in your machine. The code are noted with details comments and you don't need to install extra libraries yourself since it will be installed when needed during running the codes.
 
+# Teams work
+
 ## Zeqi Wang: 
 The research I focused on was finding out if there is a relationship between temperature and the compressor's psi value. The dataset I was using was the ‘readings_device.#####.csv’. The time frame of the data record was from 2021-07-01 to 2022-10-02, and 24 compressor machines were located at the BU campus (Charles, Fenway, and MED). I performed Correlation analysis and Linear regression prediction for psi values and temperature for each compressor. To run the code in my section, simply go to my folder, select the desired Deliverable folder, then change the path for csv files based on your machine. 
 
