@@ -1,5 +1,6 @@
-# README
-
+## CS506-Final Project
+#### BU Sustainability-Waste
+#### Team 2 -  Zeqi Wang, Timur Zhunussov, Baicheng Fang, Akshad Ramnath
 
 ## Project Description
 
