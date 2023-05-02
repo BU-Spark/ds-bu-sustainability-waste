@@ -12,6 +12,11 @@ Our analysis of these datasets will provide valuable insights to BU Sustainabili
 
 Our ultimate goal is to offer insights that will help to enhance the waste collection process and support BU's sustainability objectives.
 
+![Project Overview](poster.png)
+
+### Important Project File Links:
+- Link to the Google Drive Team Folder: https://drive.google.com/drive/u/1/folders/1Yg-K88E7W8w2QGDUdlZm3OPG2xgOoA9S
+- Link to Final Presentation Recording: https://bostonu.zoom.us/rec/share/nfy-HijKmoO2RHN7FzWtPk52t8-yQmYuJVUCWS9zx1-OANtj7gXFdPYb-xa9Qx8S.WUwebrdIXjb_A66x
 
 ## Running the code
 Our team were focusing on different part of works so what you need is using Jupyter notebook or Google Colab to select each different part of work and make sure you select the correct path for the data in your machine. The code are noted with details comments and you don't need to install extra libraries yourself since it will be installed when needed during running the codes.
