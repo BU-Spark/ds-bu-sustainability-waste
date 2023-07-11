@@ -1,0 +1,717 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_82bc6fda2078b911031680037d80e4ce {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_82bc6fda2078b911031680037d80e4ce" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_82bc6fda2078b911031680037d80e4ce = L.map(
+                "map_82bc6fda2078b911031680037d80e4ce",
+                {
+                    center: [42.3501510620117, -71.098258972168],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13.5,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_f7d1c6fce95fd6953aa0f70293369d45 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_82bc6fda2078b911031680037d80e4ce);
+        
+    
+            var marker_64322eb1824618f43dcc5b23703f087f = L.marker(
+                [42.3501510620117, -71.098258972168],
+                {}
+            ).addTo(map_82bc6fda2078b911031680037d80e4ce);
+        
+    
+            var icon_4fa7fe498e51f40ff30545f860388dbe = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "gray", "prefix": "glyphicon"}
+            );
+            marker_64322eb1824618f43dcc5b23703f087f.setIcon(icon_4fa7fe498e51f40ff30545f860388dbe);
+        
+    
+        var popup_6e91604ebd4b9c28595c3281954dd8ac = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ef48798d5e793baca9688faf969475fb = $(`<div id="html_ef48798d5e793baca9688faf969475fb" style="width: 100.0%; height: 100.0%;"> <div style="font-size: 16px;">     <strong>Device Name:</strong> 140 Bay State<br>     <strong>Site Name:</strong> BU 140 Bay State Rd<br>     <strong>Correlation Coefficient:</strong> -0.04 </div> </div>`)[0];
+                popup_6e91604ebd4b9c28595c3281954dd8ac.setContent(html_ef48798d5e793baca9688faf969475fb);
+            
+        
+
+        marker_64322eb1824618f43dcc5b23703f087f.bindPopup(popup_6e91604ebd4b9c28595c3281954dd8ac)
+        ;
+
+        
+    
+    
+            var marker_8b92c39a7ad6f119d192b52ea9b54f2c = L.marker(
+                [42.3513856, -71.1155187],
+                {}
+            ).addTo(map_82bc6fda2078b911031680037d80e4ce);
+        
+    
+            var icon_105f6fee78ed23903c0dc3a84d1bfd9c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "gray", "prefix": "glyphicon"}
+            );
+            marker_8b92c39a7ad6f119d192b52ea9b54f2c.setIcon(icon_105f6fee78ed23903c0dc3a84d1bfd9c);
+        
+    
+        var popup_b6a9c617458a50ac74edca8e14ed14e9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9ee599c76e55463e9742852e6bfc330d = $(`<div id="html_9ee599c76e55463e9742852e6bfc330d" style="width: 100.0%; height: 100.0%;"> <div style="font-size: 16px;">     <strong>Device Name:</strong> BU #102 Student Health Services 35 Yd<br>     <strong>Site Name:</strong> BU #102 Student Health Services<br>     <strong>Correlation Coefficient:</strong> -0.02 </div> </div>`)[0];
+                popup_b6a9c617458a50ac74edca8e14ed14e9.setContent(html_9ee599c76e55463e9742852e6bfc330d);
+            
+        
+
+        marker_8b92c39a7ad6f119d192b52ea9b54f2c.bindPopup(popup_b6a9c617458a50ac74edca8e14ed14e9)
+        ;
+
+        
+    
+    
+            var marker_48a2d42140f6ab69a9e903c9b8427b07 = L.marker(
+                [42.3503152, -71.0970259],
+                {}
+            ).addTo(map_82bc6fda2078b911031680037d80e4ce);
+        
+    
+            var icon_de143007eda9f751b39707c9043a7561 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_48a2d42140f6ab69a9e903c9b8427b07.setIcon(icon_de143007eda9f751b39707c9043a7561);
+        
+    
+        var popup_8b561e48befd1300c4d0c1b393cc856c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9b82e3c2a619faf8341548a266813510 = $(`<div id="html_9b82e3c2a619faf8341548a266813510" style="width: 100.0%; height: 100.0%;"> <div style="font-size: 16px;">     <strong>Device Name:</strong> BU #105 Kilachand Hall 20 Yd<br>     <strong>Site Name:</strong> BU #105 Kilachand Hall<br>     <strong>Correlation Coefficient:</strong> -0.41 </div> </div>`)[0];
+                popup_8b561e48befd1300c4d0c1b393cc856c.setContent(html_9b82e3c2a619faf8341548a266813510);
+            
+        
+
+        marker_48a2d42140f6ab69a9e903c9b8427b07.bindPopup(popup_8b561e48befd1300c4d0c1b393cc856c)
+        ;
+
+        
+    
+    
+            var marker_ed3e2f2f7d673414bdeefb0987ce45f2 = L.marker(
+                [42.3522233, -71.1177300144132],
+                {}
+            ).addTo(map_82bc6fda2078b911031680037d80e4ce);
+        
+    
+            var icon_2940689edeb7337c82d023fa55dac7e8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_ed3e2f2f7d673414bdeefb0987ce45f2.setIcon(icon_2940689edeb7337c82d023fa55dac7e8);
+        
+    
+        var popup_ff7d7c60772a4a52872aa858c8230f5a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a84e2e66262388c042f001cafe767bb3 = $(`<div id="html_a84e2e66262388c042f001cafe767bb3" style="width: 100.0%; height: 100.0%;"> <div style="font-size: 16px;">     <strong>Device Name:</strong> BU #108 Agganis Arena 35 Yd<br>     <strong>Site Name:</strong> BU #108 Agganis Arena<br>     <strong>Correlation Coefficient:</strong> 0.19 </div> </div>`)[0];
+                popup_ff7d7c60772a4a52872aa858c8230f5a.setContent(html_a84e2e66262388c042f001cafe767bb3);
+            
+        
+
+        marker_ed3e2f2f7d673414bdeefb0987ce45f2.bindPopup(popup_ff7d7c60772a4a52872aa858c8230f5a)
+        ;
+
+        
+    
+    
+            var marker_96fbbac5c960e850b4953700290d13b3 = L.marker(
+                [42.3477639059822, -71.1043083378412],
+                {}
+            ).addTo(map_82bc6fda2078b911031680037d80e4ce);
+        
+    
+            var icon_de04193f9b1056d406330ca89729ea40 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "gray", "prefix": "glyphicon"}
+            );
+            marker_96fbbac5c960e850b4953700290d13b3.setIcon(icon_de04193f9b1056d406330ca89729ea40);
+        
+    
+        var popup_798df84b980161a6757de5df259c64e0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b71cf3c85e1d4302d952d204a4bfaad1 = $(`<div id="html_b71cf3c85e1d4302d952d204a4bfaad1" style="width: 100.0%; height: 100.0%;"> <div style="font-size: 16px;">     <strong>Device Name:</strong> BU #18 - Warren Hall 20 Yd<br>     <strong>Site Name:</strong> BU #18 - Warren Hall<br>     <strong>Correlation Coefficient:</strong> -0.09 </div> </div>`)[0];
+                popup_798df84b980161a6757de5df259c64e0.setContent(html_b71cf3c85e1d4302d952d204a4bfaad1);
+            
+        
+
+        marker_96fbbac5c960e850b4953700290d13b3.bindPopup(popup_798df84b980161a6757de5df259c64e0)
+        ;
+
+        
+    
+    
+            var marker_82a20213e500c8327cab650bd33249e8 = L.marker(
+                [42.3522328, -71.1156835],
+                {}
+            ).addTo(map_82bc6fda2078b911031680037d80e4ce);
+        
+    
+            var icon_22893096f31201ac7475ea903ac39296 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "gray", "prefix": "glyphicon"}
+            );
+            marker_82a20213e500c8327cab650bd33249e8.setIcon(icon_22893096f31201ac7475ea903ac39296);
+        
+    
+        var popup_8e1bcfcde313cc06e09c2312a7edf264 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7463879b5f9551cd8c8edfcad1ab7a27 = $(`<div id="html_7463879b5f9551cd8c8edfcad1ab7a27" style="width: 100.0%; height: 100.0%;"> <div style="font-size: 16px;">     <strong>Device Name:</strong> BU #2 Student Village 35 Yd<br>     <strong>Site Name:</strong> BU #2 Student Village<br>     <strong>Correlation Coefficient:</strong> -0.01 </div> </div>`)[0];
+                popup_8e1bcfcde313cc06e09c2312a7edf264.setContent(html_7463879b5f9551cd8c8edfcad1ab7a27);
+            
+        
+
+        marker_82a20213e500c8327cab650bd33249e8.bindPopup(popup_8e1bcfcde313cc06e09c2312a7edf264)
+        ;
+
+        
+    
+    
+            var marker_726a6b89c81642e9e235ef136b12511e = L.marker(
+                [42.3491905, -71.1060852],
+                {}
+            ).addTo(map_82bc6fda2078b911031680037d80e4ce);
+        
+    
+            var icon_9db783b0838a145497f0ae91ef474d89 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_726a6b89c81642e9e235ef136b12511e.setIcon(icon_9db783b0838a145497f0ae91ef474d89);
+        
+    
+        var popup_b7be91671d8f406a489bc135fea7da80 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2fab1d3b7dc609e1f706d0d56abdea42 = $(`<div id="html_2fab1d3b7dc609e1f706d0d56abdea42" style="width: 100.0%; height: 100.0%;"> <div style="font-size: 16px;">     <strong>Device Name:</strong> BU #35 22 Babbit 35 Yd<br>     <strong>Site Name:</strong> BU #35 22 Babbit<br>     <strong>Correlation Coefficient:</strong> -0.22 </div> </div>`)[0];
+                popup_b7be91671d8f406a489bc135fea7da80.setContent(html_2fab1d3b7dc609e1f706d0d56abdea42);
+            
+        
+
+        marker_726a6b89c81642e9e235ef136b12511e.bindPopup(popup_b7be91671d8f406a489bc135fea7da80)
+        ;
+
+        
+    
+    
+            var marker_2888fed3dc50617ca89b30ef58172704 = L.marker(
+                [42.3483655, -71.1015899],
+                {}
+            ).addTo(map_82bc6fda2078b911031680037d80e4ce);
+        
+    
+            var icon_53c7593e39f867b9c85273dc80b5e0e6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_2888fed3dc50617ca89b30ef58172704.setIcon(icon_53c7593e39f867b9c85273dc80b5e0e6);
+        
+    
+        var popup_688704344143e8fd60f2c0e6dff3e146 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e761c14c2f4bebb1e0e61ffb04245136 = $(`<div id="html_e761c14c2f4bebb1e0e61ffb04245136" style="width: 100.0%; height: 100.0%;"> <div style="font-size: 16px;">     <strong>Device Name:</strong> BU #38 Life Sciences 20 Yd<br>     <strong>Site Name:</strong> BU #38 Life Sciences<br>     <strong>Correlation Coefficient:</strong> 0.28 </div> </div>`)[0];
+                popup_688704344143e8fd60f2c0e6dff3e146.setContent(html_e761c14c2f4bebb1e0e61ffb04245136);
+            
+        
+
+        marker_2888fed3dc50617ca89b30ef58172704.bindPopup(popup_688704344143e8fd60f2c0e6dff3e146)
+        ;
+
+        
+    
+    
+            var marker_3067f76a8ccb94535719d6d8195b77a6 = L.marker(
+                [42.34976335, -71.0979666937158],
+                {}
+            ).addTo(map_82bc6fda2078b911031680037d80e4ce);
+        
+    
+            var icon_ce6d6d0bc44fc85720f064819c05893a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_3067f76a8ccb94535719d6d8195b77a6.setIcon(icon_ce6d6d0bc44fc85720f064819c05893a);
+        
+    
+        var popup_449f3cd8a137943648a92f8feba9af68 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7973794a602af4c48787528bbb361394 = $(`<div id="html_7973794a602af4c48787528bbb361394" style="width: 100.0%; height: 100.0%;"> <div style="font-size: 16px;">     <strong>Device Name:</strong> BU #4 Yawkey Center 15 Yd<br>     <strong>Site Name:</strong> BU #4 Yawkey<br>     <strong>Correlation Coefficient:</strong> -0.29 </div> </div>`)[0];
+                popup_449f3cd8a137943648a92f8feba9af68.setContent(html_7973794a602af4c48787528bbb361394);
+            
+        
+
+        marker_3067f76a8ccb94535719d6d8195b77a6.bindPopup(popup_449f3cd8a137943648a92f8feba9af68)
+        ;
+
+        
+    
+    
+            var marker_f11395c9798f785e4970c74361d699e4 = L.marker(
+                [42.3525009155273, -71.1211242675781],
+                {}
+            ).addTo(map_82bc6fda2078b911031680037d80e4ce);
+        
+    
+            var icon_cffb2a2c94173f47dea90af997b51ebe = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "gray", "prefix": "glyphicon"}
+            );
+            marker_f11395c9798f785e4970c74361d699e4.setIcon(icon_cffb2a2c94173f47dea90af997b51ebe);
+        
+    
+        var popup_f4f80c282e2ca975758a1d528d6a188a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_68bfc81fa4fe7ba3e05897c6bc0a87fc = $(`<div id="html_68bfc81fa4fe7ba3e05897c6bc0a87fc" style="width: 100.0%; height: 100.0%;"> <div style="font-size: 16px;">     <strong>Device Name:</strong> BU #43 West Loading Dock<br>     <strong>Site Name:</strong> BU #43 West Loading Dock<br>     <strong>Correlation Coefficient:</strong> -0.08 </div> </div>`)[0];
+                popup_f4f80c282e2ca975758a1d528d6a188a.setContent(html_68bfc81fa4fe7ba3e05897c6bc0a87fc);
+            
+        
+
+        marker_f11395c9798f785e4970c74361d699e4.bindPopup(popup_f4f80c282e2ca975758a1d528d6a188a)
+        ;
+
+        
+    
+    
+            var marker_15466c5f06504e047b5a2541f20fff76 = L.marker(
+                [42.3500127660329, -71.0941829629419],
+                {}
+            ).addTo(map_82bc6fda2078b911031680037d80e4ce);
+        
+    
+            var icon_bb56f552b3ee514ba19c108e202a64f1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightblue", "prefix": "glyphicon"}
+            );
+            marker_15466c5f06504e047b5a2541f20fff76.setIcon(icon_bb56f552b3ee514ba19c108e202a64f1);
+        
+    
+        var popup_ef75de09bd6dea67b3703e6dd009942e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f06aa6bfa8629ec20e6ef864f1dbd006 = $(`<div id="html_f06aa6bfa8629ec20e6ef864f1dbd006" style="width: 100.0%; height: 100.0%;"> <div style="font-size: 16px;">     <strong>Device Name:</strong> BU #46 30 Bay State 20 Yd<br>     <strong>Site Name:</strong> BU #46 30 Bay State<br>     <strong>Correlation Coefficient:</strong> -0.20 </div> </div>`)[0];
+                popup_ef75de09bd6dea67b3703e6dd009942e.setContent(html_f06aa6bfa8629ec20e6ef864f1dbd006);
+            
+        
+
+        marker_15466c5f06504e047b5a2541f20fff76.bindPopup(popup_ef75de09bd6dea67b3703e6dd009942e)
+        ;
+
+        
+    
+    
+            var marker_4140f94e56c75b616af6cbecd2cfeecd = L.marker(
+                [42.35325935, -71.1178204938349],
+                {}
+            ).addTo(map_82bc6fda2078b911031680037d80e4ce);
+        
+    
+            var icon_599b065887c5998cddb9f45c0eb9c9d4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_4140f94e56c75b616af6cbecd2cfeecd.setIcon(icon_599b065887c5998cddb9f45c0eb9c9d4);
+        
+    
+        var popup_5ed808448a4d5af7e97a9c7f1855e386 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7821e4091c0ccbed7cc38a4355c05586 = $(`<div id="html_7821e4091c0ccbed7cc38a4355c05586" style="width: 100.0%; height: 100.0%;"> <div style="font-size: 16px;">     <strong>Device Name:</strong> BU #48 Student Village #2 20 Yd<br>     <strong>Site Name:</strong> BU #48 Student Village #2<br>     <strong>Correlation Coefficient:</strong> 0.12 </div> </div>`)[0];
+                popup_5ed808448a4d5af7e97a9c7f1855e386.setContent(html_7821e4091c0ccbed7cc38a4355c05586);
+            
+        
+
+        marker_4140f94e56c75b616af6cbecd2cfeecd.bindPopup(popup_5ed808448a4d5af7e97a9c7f1855e386)
+        ;
+
+        
+    
+    
+            var marker_9ee7956150b0636792b2aba93a8fc24e = L.marker(
+                [42.348804, -71.0995168492276],
+                {}
+            ).addTo(map_82bc6fda2078b911031680037d80e4ce);
+        
+    
+            var icon_bb25727b419bf9a0812c7c64f0f4559c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_9ee7956150b0636792b2aba93a8fc24e.setIcon(icon_bb25727b419bf9a0812c7c64f0f4559c);
+        
+    
+        var popup_f009aa1f857a0eaa6b697a70c79d5045 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_12a31f4f6396d582343c32102305c592 = $(`<div id="html_12a31f4f6396d582343c32102305c592" style="width: 100.0%; height: 100.0%;"> <div style="font-size: 16px;">     <strong>Device Name:</strong> BU #69 - Graduate Apartments 17 Yd<br>     <strong>Site Name:</strong> BU #69 - Graduate Apartments<br>     <strong>Correlation Coefficient:</strong> -0.43 </div> </div>`)[0];
+                popup_f009aa1f857a0eaa6b697a70c79d5045.setContent(html_12a31f4f6396d582343c32102305c592);
+            
+        
+
+        marker_9ee7956150b0636792b2aba93a8fc24e.bindPopup(popup_f009aa1f857a0eaa6b697a70c79d5045)
+        ;
+
+        
+    
+    
+            var marker_f69a651dcf3a0c9dcf795b6cd9ab1b16 = L.marker(
+                [42.34963975, -71.0997322692519],
+                {}
+            ).addTo(map_82bc6fda2078b911031680037d80e4ce);
+        
+    
+            var icon_40c70a0522300a71a46393550e9c8a9d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_f69a651dcf3a0c9dcf795b6cd9ab1b16.setIcon(icon_40c70a0522300a71a46393550e9c8a9d);
+        
+    
+        var popup_479ec8e29bf4282a995c306091bc7bcf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_13c5f8c4221b976e031c1e158b3b598b = $(`<div id="html_13c5f8c4221b976e031c1e158b3b598b" style="width: 100.0%; height: 100.0%;"> <div style="font-size: 16px;">     <strong>Device Name:</strong> BU #72 Rafik B Hariri 20 YD<br>     <strong>Site Name:</strong> BU #72 Rafik B Hariri<br>     <strong>Correlation Coefficient:</strong> -0.55 </div> </div>`)[0];
+                popup_479ec8e29bf4282a995c306091bc7bcf.setContent(html_13c5f8c4221b976e031c1e158b3b598b);
+            
+        
+
+        marker_f69a651dcf3a0c9dcf795b6cd9ab1b16.bindPopup(popup_479ec8e29bf4282a995c306091bc7bcf)
+        ;
+
+        
+    
+    
+            var marker_3ce61c8d73866d48da5f2fd9626bfccb = L.marker(
+                [42.3493957, -71.1040558],
+                {}
+            ).addTo(map_82bc6fda2078b911031680037d80e4ce);
+        
+    
+            var icon_805c2ae26e74c6b806e3f871f58e536e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "gray", "prefix": "glyphicon"}
+            );
+            marker_3ce61c8d73866d48da5f2fd9626bfccb.setIcon(icon_805c2ae26e74c6b806e3f871f58e536e);
+        
+    
+        var popup_f84d668626688b57dc55c29c1da0aac0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_114e23e3a2241ea4ca901b020fe79275 = $(`<div id="html_114e23e3a2241ea4ca901b020fe79275" style="width: 100.0%; height: 100.0%;"> <div style="font-size: 16px;">     <strong>Device Name:</strong> BU #82 Warren Towers 35 Yd<br>     <strong>Site Name:</strong> BU #82 Warren Towers 35<br>     <strong>Correlation Coefficient:</strong> 0.06 </div> </div>`)[0];
+                popup_f84d668626688b57dc55c29c1da0aac0.setContent(html_114e23e3a2241ea4ca901b020fe79275);
+            
+        
+
+        marker_3ce61c8d73866d48da5f2fd9626bfccb.bindPopup(popup_f84d668626688b57dc55c29c1da0aac0)
+        ;
+
+        
+    
+    
+            var marker_543473a9971c53341a0776be5eb6d46a = L.marker(
+                [42.34964, -71.106987],
+                {}
+            ).addTo(map_82bc6fda2078b911031680037d80e4ce);
+        
+    
+            var icon_9f2808f305dc6994ebb13baa53623dfc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightblue", "prefix": "glyphicon"}
+            );
+            marker_543473a9971c53341a0776be5eb6d46a.setIcon(icon_9f2808f305dc6994ebb13baa53623dfc);
+        
+    
+        var popup_8028bbf61364e035a05beecb28c77e7a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_aa220bb1892e10145b93485815aa25a4 = $(`<div id="html_aa220bb1892e10145b93485815aa25a4" style="width: 100.0%; height: 100.0%;"> <div style="font-size: 16px;">     <strong>Device Name:</strong> BU #87 College of Engineering 20 Yd<br>     <strong>Site Name:</strong> BU #87 College of Engineering<br>     <strong>Correlation Coefficient:</strong> -0.19 </div> </div>`)[0];
+                popup_8028bbf61364e035a05beecb28c77e7a.setContent(html_aa220bb1892e10145b93485815aa25a4);
+            
+        
+
+        marker_543473a9971c53341a0776be5eb6d46a.bindPopup(popup_8028bbf61364e035a05beecb28c77e7a)
+        ;
+
+        
+    
+    
+            var marker_37cbd0a0ea55efb4edbc6bddd9140623 = L.marker(
+                [42.3510643, -71.1075071069339],
+                {}
+            ).addTo(map_82bc6fda2078b911031680037d80e4ce);
+        
+    
+            var icon_ebd0d32ea22f9a23ef2f792bc71e89b8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_37cbd0a0ea55efb4edbc6bddd9140623.setIcon(icon_ebd0d32ea22f9a23ef2f792bc71e89b8);
+        
+    
+        var popup_2070f2f33184a8ee9449f1273a65857b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_75e2e7be8ace3ead09e09ea2210177e7 = $(`<div id="html_75e2e7be8ace3ead09e09ea2210177e7" style="width: 100.0%; height: 100.0%;"> <div style="font-size: 16px;">     <strong>Device Name:</strong> BU #90 - School of Law 35<br>     <strong>Site Name:</strong> BU #90 - School of Law<br>     <strong>Correlation Coefficient:</strong> -0.30 </div> </div>`)[0];
+                popup_2070f2f33184a8ee9449f1273a65857b.setContent(html_75e2e7be8ace3ead09e09ea2210177e7);
+            
+        
+
+        marker_37cbd0a0ea55efb4edbc6bddd9140623.bindPopup(popup_2070f2f33184a8ee9449f1273a65857b)
+        ;
+
+        
+    
+    
+            var marker_05f827b69cb7f5fff4db3345f773c0b8 = L.marker(
+                [42.35097115, -71.1089790044789],
+                {}
+            ).addTo(map_82bc6fda2078b911031680037d80e4ce);
+        
+    
+            var icon_75a5f18115aab05abebb82697f07025b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "gray", "prefix": "glyphicon"}
+            );
+            marker_05f827b69cb7f5fff4db3345f773c0b8.setIcon(icon_75a5f18115aab05abebb82697f07025b);
+        
+    
+        var popup_1216bdc4b43d283b822068d580e4a47b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d48fe68e2fd29039501aed402ce072f3 = $(`<div id="html_d48fe68e2fd29039501aed402ce072f3" style="width: 100.0%; height: 100.0%;"> <div style="font-size: 16px;">     <strong>Device Name:</strong> BU #93 George Sherman Union 35 Yd<br>     <strong>Site Name:</strong> BU #93 George Sherman Union<br>     <strong>Correlation Coefficient:</strong> -0.04 </div> </div>`)[0];
+                popup_1216bdc4b43d283b822068d580e4a47b.setContent(html_d48fe68e2fd29039501aed402ce072f3);
+            
+        
+
+        marker_05f827b69cb7f5fff4db3345f773c0b8.bindPopup(popup_1216bdc4b43d283b822068d580e4a47b)
+        ;
+
+        
+    
+    
+            var marker_ddd8e89e34776c08bba606934f9a5619 = L.marker(
+                [42.3505249023438, -71.1116714477539],
+                {}
+            ).addTo(map_82bc6fda2078b911031680037d80e4ce);
+        
+    
+            var icon_5ff63a3cab7f7a50a474942325d2625a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "gray", "prefix": "glyphicon"}
+            );
+            marker_ddd8e89e34776c08bba606934f9a5619.setIcon(icon_5ff63a3cab7f7a50a474942325d2625a);
+        
+    
+        var popup_935b6620c2287e8282abc4b36467eb52 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c6bcb971f413de22f29008c12575a2fc = $(`<div id="html_c6bcb971f413de22f29008c12575a2fc" style="width: 100.0%; height: 100.0%;"> <div style="font-size: 16px;">     <strong>Device Name:</strong> BU #96 808 Comm Ave 35 Yd<br>     <strong>Site Name:</strong> BU #96 808 Commonwealth<br>     <strong>Correlation Coefficient:</strong> -0.06 </div> </div>`)[0];
+                popup_935b6620c2287e8282abc4b36467eb52.setContent(html_c6bcb971f413de22f29008c12575a2fc);
+            
+        
+
+        marker_ddd8e89e34776c08bba606934f9a5619.bindPopup(popup_935b6620c2287e8282abc4b36467eb52)
+        ;
+
+        
+    
+    
+            var marker_e2ede7502bd6014b5cc1e773af9d722d = L.marker(
+                [42.35029315, -71.1044912076291],
+                {}
+            ).addTo(map_82bc6fda2078b911031680037d80e4ce);
+        
+    
+            var icon_b8eed231f56be493300ea8db990cff06 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_e2ede7502bd6014b5cc1e773af9d722d.setIcon(icon_b8eed231f56be493300ea8db990cff06);
+        
+    
+        var popup_171ba15baca93a7c7d60ab1de84aff9a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5b400d2eeae9d192e103d0f084cf6f50 = $(`<div id="html_5b400d2eeae9d192e103d0f084cf6f50" style="width: 100.0%; height: 100.0%;"> <div style="font-size: 16px;">     <strong>Device Name:</strong> BU 685 Comm Ave<br>     <strong>Site Name:</strong> BU 685 Comm Ave<br>     <strong>Correlation Coefficient:</strong> -0.71 </div> </div>`)[0];
+                popup_171ba15baca93a7c7d60ab1de84aff9a.setContent(html_5b400d2eeae9d192e103d0f084cf6f50);
+            
+        
+
+        marker_e2ede7502bd6014b5cc1e773af9d722d.bindPopup(popup_171ba15baca93a7c7d60ab1de84aff9a)
+        ;
+
+        
+    
+    
+            var marker_91b54b9b66afc8f955ddb8d3659dcec7 = L.marker(
+                [42.3432652767691, -71.1049151366523],
+                {}
+            ).addTo(map_82bc6fda2078b911031680037d80e4ce);
+        
+    
+            var icon_76859b4faef58aa6af7a830580f1b543 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_91b54b9b66afc8f955ddb8d3659dcec7.setIcon(icon_76859b4faef58aa6af7a830580f1b543);
+        
+    
+        var popup_b7c81612b75573514d07c5075a59506b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cbc50bb18ddffbd90d9317b2f13d2706 = $(`<div id="html_cbc50bb18ddffbd90d9317b2f13d2706" style="width: 100.0%; height: 100.0%;"> <div style="font-size: 16px;">     <strong>Device Name:</strong> BU Fenway Trash 20 Yd<br>     <strong>Site Name:</strong> BU Fenway<br>     <strong>Correlation Coefficient:</strong> -0.58 </div> </div>`)[0];
+                popup_b7c81612b75573514d07c5075a59506b.setContent(html_cbc50bb18ddffbd90d9317b2f13d2706);
+            
+        
+
+        marker_91b54b9b66afc8f955ddb8d3659dcec7.bindPopup(popup_b7c81612b75573514d07c5075a59506b)
+        ;
+
+        
+    
+    
+            var marker_a923ce16aea0c90d604b28c5cfa37582 = L.marker(
+                [42.31663975, -71.0646115257647],
+                {}
+            ).addTo(map_82bc6fda2078b911031680037d80e4ce);
+        
+    
+            var icon_2d430cfcaffd38382e9dd14b958acea5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_a923ce16aea0c90d604b28c5cfa37582.setIcon(icon_2d430cfcaffd38382e9dd14b958acea5);
+        
+    
+        var popup_ec87e62e68a7eb73355d28f9713f0f2a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6a2b483bc5610ea7ca14734f162ed3aa = $(`<div id="html_6a2b483bc5610ea7ca14734f162ed3aa" style="width: 100.0%; height: 100.0%;"> <div style="font-size: 16px;">     <strong>Device Name:</strong> BU MED - 15 Stoughton 35 Yd<br>     <strong>Site Name:</strong> BU MED - 15 Stoughton<br>     <strong>Correlation Coefficient:</strong> -0.65 </div> </div>`)[0];
+                popup_ec87e62e68a7eb73355d28f9713f0f2a.setContent(html_6a2b483bc5610ea7ca14734f162ed3aa);
+            
+        
+
+        marker_a923ce16aea0c90d604b28c5cfa37582.bindPopup(popup_ec87e62e68a7eb73355d28f9713f0f2a)
+        ;
+
+        
+    
+    
+            var marker_d4aab53c64c69c345af90808f13139ec = L.marker(
+                [42.3354856, -71.0702094114003],
+                {}
+            ).addTo(map_82bc6fda2078b911031680037d80e4ce);
+        
+    
+            var icon_e2b217cbfd175cb2aea5ac1601e56b4c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_d4aab53c64c69c345af90808f13139ec.setIcon(icon_e2b217cbfd175cb2aea5ac1601e56b4c);
+        
+    
+        var popup_203391ebfdfbbdb1ddbeb885761772d3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d6471bcedae62e3d77d2efefe8a584ac = $(`<div id="html_d6471bcedae62e3d77d2efefe8a584ac" style="width: 100.0%; height: 100.0%;"> <div style="font-size: 16px;">     <strong>Device Name:</strong> BU Med 700 Albany 20 Yd<br>     <strong>Site Name:</strong> BU Med 700<br>     <strong>Correlation Coefficient:</strong> -0.29 </div> </div>`)[0];
+                popup_203391ebfdfbbdb1ddbeb885761772d3.setContent(html_d6471bcedae62e3d77d2efefe8a584ac);
+            
+        
+
+        marker_d4aab53c64c69c345af90808f13139ec.bindPopup(popup_203391ebfdfbbdb1ddbeb885761772d3)
+        ;
+
+        
+    
+    
+            var marker_e2805c7fa7d6578c1e4d4666e9e586a2 = L.marker(
+                [42.332236, -71.0754183],
+                {}
+            ).addTo(map_82bc6fda2078b911031680037d80e4ce);
+        
+    
+            var icon_7d3332f6f3eb100399722075e02e8a04 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "gray", "prefix": "glyphicon"}
+            );
+            marker_e2805c7fa7d6578c1e4d4666e9e586a2.setIcon(icon_7d3332f6f3eb100399722075e02e8a04);
+        
+    
+        var popup_6d634efa6ed71bed7dcbf4c637ebb64a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3276826efafaac718fbaf60a4bdd20e5 = $(`<div id="html_3276826efafaac718fbaf60a4bdd20e5" style="width: 100.0%; height: 100.0%;"> <div style="font-size: 16px;">     <strong>Device Name:</strong> BU Med 815 Albany 15 Yd<br>     <strong>Site Name:</strong> BU Med #815 Albany<br>     <strong>Correlation Coefficient:</strong> -0.04 </div> </div>`)[0];
+                popup_6d634efa6ed71bed7dcbf4c637ebb64a.setContent(html_3276826efafaac718fbaf60a4bdd20e5);
+            
+        
+
+        marker_e2805c7fa7d6578c1e4d4666e9e586a2.bindPopup(popup_6d634efa6ed71bed7dcbf4c637ebb64a)
+        ;
+
+        
+    
+</script>
+</html>

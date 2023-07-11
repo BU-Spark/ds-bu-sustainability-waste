@@ -1,0 +1,744 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_03b29fb5837163de83d99eb52dfbfee4 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_03b29fb5837163de83d99eb52dfbfee4" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_03b29fb5837163de83d99eb52dfbfee4 = L.map(
+                "map_03b29fb5837163de83d99eb52dfbfee4",
+                {
+                    center: [42.349396, -71.104056],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 15,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_d994398608d5f926badb8e9d00fd632b = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_03b29fb5837163de83d99eb52dfbfee4);
+        
+    
+            var marker_c90e9a9c18a28cc368d5b3447f6092c8 = L.marker(
+                [42.3513856, -71.1155187],
+                {}
+            ).addTo(map_03b29fb5837163de83d99eb52dfbfee4);
+        
+    
+            var icon_36fb02b8155558d0b658dcd77efa546b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info_sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_c90e9a9c18a28cc368d5b3447f6092c8.setIcon(icon_36fb02b8155558d0b658dcd77efa546b);
+        
+    
+        var popup_84e79812b7069c5d7a372355fd7b642d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_07d730549c2bad72144bd8a43b214169 = $(`<div id="html_07d730549c2bad72144bd8a43b214169" style="width: 100.0%; height: 100.0%;">BU #102 Student Health Services</div>`)[0];
+                popup_84e79812b7069c5d7a372355fd7b642d.setContent(html_07d730549c2bad72144bd8a43b214169);
+            
+        
+
+        marker_c90e9a9c18a28cc368d5b3447f6092c8.bindPopup(popup_84e79812b7069c5d7a372355fd7b642d)
+        ;
+
+        
+    
+    
+            var marker_4020945616b307cd279518391ceeb8f3 = L.marker(
+                [42.3503152, -71.0970259],
+                {}
+            ).addTo(map_03b29fb5837163de83d99eb52dfbfee4);
+        
+    
+            var icon_d11d91adec6d72c283cf1d14851404a2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info_sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_4020945616b307cd279518391ceeb8f3.setIcon(icon_d11d91adec6d72c283cf1d14851404a2);
+        
+    
+        var popup_45742b08a8438b51937aa48a0cd08aef = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9dfda20541ac06857b7bd73d237a5b8b = $(`<div id="html_9dfda20541ac06857b7bd73d237a5b8b" style="width: 100.0%; height: 100.0%;">BU #105 Kilachand Hall</div>`)[0];
+                popup_45742b08a8438b51937aa48a0cd08aef.setContent(html_9dfda20541ac06857b7bd73d237a5b8b);
+            
+        
+
+        marker_4020945616b307cd279518391ceeb8f3.bindPopup(popup_45742b08a8438b51937aa48a0cd08aef)
+        ;
+
+        
+    
+    
+            var marker_7805952e85c8a9d833a69ed02a8bad55 = L.marker(
+                [42.3522233, -71.11773001441316],
+                {}
+            ).addTo(map_03b29fb5837163de83d99eb52dfbfee4);
+        
+    
+            var icon_1f65992813c009503349a795d0fc7f9f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info_sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_7805952e85c8a9d833a69ed02a8bad55.setIcon(icon_1f65992813c009503349a795d0fc7f9f);
+        
+    
+        var popup_633d4f461d3ec2a7b145d0f7eb1fc0f9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2007087d5f65d48a04911ffe642fd42f = $(`<div id="html_2007087d5f65d48a04911ffe642fd42f" style="width: 100.0%; height: 100.0%;">BU #108 Agganis Arena</div>`)[0];
+                popup_633d4f461d3ec2a7b145d0f7eb1fc0f9.setContent(html_2007087d5f65d48a04911ffe642fd42f);
+            
+        
+
+        marker_7805952e85c8a9d833a69ed02a8bad55.bindPopup(popup_633d4f461d3ec2a7b145d0f7eb1fc0f9)
+        ;
+
+        
+    
+    
+            var marker_990644b2431bc157c7717a2f690635d1 = L.marker(
+                [42.3493957, -71.1040558],
+                {}
+            ).addTo(map_03b29fb5837163de83d99eb52dfbfee4);
+        
+    
+            var icon_e9c85ae989ac0d93438c87c3a41f1096 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info_sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_990644b2431bc157c7717a2f690635d1.setIcon(icon_e9c85ae989ac0d93438c87c3a41f1096);
+        
+    
+        var popup_45863f256c3f13af4a51ac27393e47e5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_302b68ce7a8d3a34b80828e292ee514d = $(`<div id="html_302b68ce7a8d3a34b80828e292ee514d" style="width: 100.0%; height: 100.0%;">BU #18 - Warren Hall</div>`)[0];
+                popup_45863f256c3f13af4a51ac27393e47e5.setContent(html_302b68ce7a8d3a34b80828e292ee514d);
+            
+        
+
+        marker_990644b2431bc157c7717a2f690635d1.bindPopup(popup_45863f256c3f13af4a51ac27393e47e5)
+        ;
+
+        
+    
+    
+            var marker_b5d65335894329832653911e6b7241eb = L.marker(
+                [42.3522328, -71.1156835],
+                {}
+            ).addTo(map_03b29fb5837163de83d99eb52dfbfee4);
+        
+    
+            var icon_adcbeb6c29d14f8f0e052a7f563285ee = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info_sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_b5d65335894329832653911e6b7241eb.setIcon(icon_adcbeb6c29d14f8f0e052a7f563285ee);
+        
+    
+        var popup_47d215af96f53d92ad97b6e9acdd4fcd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c3d5ece8aab8977096b77acd7662e7e7 = $(`<div id="html_c3d5ece8aab8977096b77acd7662e7e7" style="width: 100.0%; height: 100.0%;">BU #2 Student Village</div>`)[0];
+                popup_47d215af96f53d92ad97b6e9acdd4fcd.setContent(html_c3d5ece8aab8977096b77acd7662e7e7);
+            
+        
+
+        marker_b5d65335894329832653911e6b7241eb.bindPopup(popup_47d215af96f53d92ad97b6e9acdd4fcd)
+        ;
+
+        
+    
+    
+            var marker_e56fc8cffdb14e5494e0d65912d369b6 = L.marker(
+                [42.3491905, -71.1060852],
+                {}
+            ).addTo(map_03b29fb5837163de83d99eb52dfbfee4);
+        
+    
+            var icon_f844643c4a93d575cad0c7cce5132bb3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info_sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_e56fc8cffdb14e5494e0d65912d369b6.setIcon(icon_f844643c4a93d575cad0c7cce5132bb3);
+        
+    
+        var popup_c439c9473e5d469954cabe073cc604d8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_201ac3b665f54aec90e4ae9b797aa3cf = $(`<div id="html_201ac3b665f54aec90e4ae9b797aa3cf" style="width: 100.0%; height: 100.0%;">BU #35 22 Babbit</div>`)[0];
+                popup_c439c9473e5d469954cabe073cc604d8.setContent(html_201ac3b665f54aec90e4ae9b797aa3cf);
+            
+        
+
+        marker_e56fc8cffdb14e5494e0d65912d369b6.bindPopup(popup_c439c9473e5d469954cabe073cc604d8)
+        ;
+
+        
+    
+    
+            var marker_6c2e2a2897cdf0e7adbc0d87d42975cc = L.marker(
+                [42.3483655, -71.1015899],
+                {}
+            ).addTo(map_03b29fb5837163de83d99eb52dfbfee4);
+        
+    
+            var icon_d96eae04e110602ac4f416635308d8a2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info_sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_6c2e2a2897cdf0e7adbc0d87d42975cc.setIcon(icon_d96eae04e110602ac4f416635308d8a2);
+        
+    
+        var popup_4e2584332dbe0bd89d8ea7bbb054f3f5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e0c05feadd8cc3f26cf3584028c5b5a5 = $(`<div id="html_e0c05feadd8cc3f26cf3584028c5b5a5" style="width: 100.0%; height: 100.0%;">BU #38 Life Sciences</div>`)[0];
+                popup_4e2584332dbe0bd89d8ea7bbb054f3f5.setContent(html_e0c05feadd8cc3f26cf3584028c5b5a5);
+            
+        
+
+        marker_6c2e2a2897cdf0e7adbc0d87d42975cc.bindPopup(popup_4e2584332dbe0bd89d8ea7bbb054f3f5)
+        ;
+
+        
+    
+    
+            var marker_bb0736fa97995d46e4b6fd873475b205 = L.marker(
+                [42.34976335, -71.09796669371582],
+                {}
+            ).addTo(map_03b29fb5837163de83d99eb52dfbfee4);
+        
+    
+            var icon_c646246ddb26e4a25f08066c44e22279 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info_sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_bb0736fa97995d46e4b6fd873475b205.setIcon(icon_c646246ddb26e4a25f08066c44e22279);
+        
+    
+        var popup_d76296f31dfcf926c69ea1f29bfe7e1f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9ad583b720e93855e6fbbc812ad35b47 = $(`<div id="html_9ad583b720e93855e6fbbc812ad35b47" style="width: 100.0%; height: 100.0%;">BU #4 Yawkey</div>`)[0];
+                popup_d76296f31dfcf926c69ea1f29bfe7e1f.setContent(html_9ad583b720e93855e6fbbc812ad35b47);
+            
+        
+
+        marker_bb0736fa97995d46e4b6fd873475b205.bindPopup(popup_d76296f31dfcf926c69ea1f29bfe7e1f)
+        ;
+
+        
+    
+    
+            var marker_9b53c02dcf39441fca95616557ed791e = L.marker(
+                [42.35365350287415, -71.12075648859633],
+                {}
+            ).addTo(map_03b29fb5837163de83d99eb52dfbfee4);
+        
+    
+            var icon_c947a91fa4c11dc861c45e840f137767 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info_sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_9b53c02dcf39441fca95616557ed791e.setIcon(icon_c947a91fa4c11dc861c45e840f137767);
+        
+    
+        var popup_5148360fe8985b45862317b0b06d5389 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dda9e1b872924661d2d769bad869b7e1 = $(`<div id="html_dda9e1b872924661d2d769bad869b7e1" style="width: 100.0%; height: 100.0%;">BU #43 West Loading Dock</div>`)[0];
+                popup_5148360fe8985b45862317b0b06d5389.setContent(html_dda9e1b872924661d2d769bad869b7e1);
+            
+        
+
+        marker_9b53c02dcf39441fca95616557ed791e.bindPopup(popup_5148360fe8985b45862317b0b06d5389)
+        ;
+
+        
+    
+    
+            var marker_e18824550117a86a6167eb6ab1b10efe = L.marker(
+                [42.350012766032926, -71.09418296294191],
+                {}
+            ).addTo(map_03b29fb5837163de83d99eb52dfbfee4);
+        
+    
+            var icon_99e0313e34ce3756d9295c7a4461d897 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info_sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_e18824550117a86a6167eb6ab1b10efe.setIcon(icon_99e0313e34ce3756d9295c7a4461d897);
+        
+    
+        var popup_bc8d179a971ba1b76e63552d0ca2d813 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a202328c0f08d2aa1a743f14e7e1df40 = $(`<div id="html_a202328c0f08d2aa1a743f14e7e1df40" style="width: 100.0%; height: 100.0%;">BU #46 30 Bay State</div>`)[0];
+                popup_bc8d179a971ba1b76e63552d0ca2d813.setContent(html_a202328c0f08d2aa1a743f14e7e1df40);
+            
+        
+
+        marker_e18824550117a86a6167eb6ab1b10efe.bindPopup(popup_bc8d179a971ba1b76e63552d0ca2d813)
+        ;
+
+        
+    
+    
+            var marker_c03bc45f66a0e69ee49711685705a4dd = L.marker(
+                [42.35325935, -71.11782049383487],
+                {}
+            ).addTo(map_03b29fb5837163de83d99eb52dfbfee4);
+        
+    
+            var icon_9ccb4693be177cd276db9b9fd4e03777 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info_sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_c03bc45f66a0e69ee49711685705a4dd.setIcon(icon_9ccb4693be177cd276db9b9fd4e03777);
+        
+    
+        var popup_6e8c2c8301b269a4b2d8e4a1ed90c043 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6bf180bcecfff0e4e0743cd9071b1834 = $(`<div id="html_6bf180bcecfff0e4e0743cd9071b1834" style="width: 100.0%; height: 100.0%;">BU #48 Student Village #2</div>`)[0];
+                popup_6e8c2c8301b269a4b2d8e4a1ed90c043.setContent(html_6bf180bcecfff0e4e0743cd9071b1834);
+            
+        
+
+        marker_c03bc45f66a0e69ee49711685705a4dd.bindPopup(popup_6e8c2c8301b269a4b2d8e4a1ed90c043)
+        ;
+
+        
+    
+    
+            var marker_c09ceb34322ece03c61627403034f17c = L.marker(
+                [42.348804, -71.09951684922758],
+                {}
+            ).addTo(map_03b29fb5837163de83d99eb52dfbfee4);
+        
+    
+            var icon_00afd453767c084f53ff20e3e0eb4df0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info_sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_c09ceb34322ece03c61627403034f17c.setIcon(icon_00afd453767c084f53ff20e3e0eb4df0);
+        
+    
+        var popup_006d855bace4812eef06e26cf5eabecc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ccfd0d36b20482829857516143d09465 = $(`<div id="html_ccfd0d36b20482829857516143d09465" style="width: 100.0%; height: 100.0%;">BU #69 - Graduate Apartments</div>`)[0];
+                popup_006d855bace4812eef06e26cf5eabecc.setContent(html_ccfd0d36b20482829857516143d09465);
+            
+        
+
+        marker_c09ceb34322ece03c61627403034f17c.bindPopup(popup_006d855bace4812eef06e26cf5eabecc)
+        ;
+
+        
+    
+    
+            var marker_44cc7a1bb718c7b176bec140a70319eb = L.marker(
+                [42.34963975, -71.09973226925189],
+                {}
+            ).addTo(map_03b29fb5837163de83d99eb52dfbfee4);
+        
+    
+            var icon_ddbf7777192b99a8028d95befdb8698b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info_sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_44cc7a1bb718c7b176bec140a70319eb.setIcon(icon_ddbf7777192b99a8028d95befdb8698b);
+        
+    
+        var popup_2642e09978d98b594e0d68155cfe6049 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_232cbeef21add765be412123e1fbf5c0 = $(`<div id="html_232cbeef21add765be412123e1fbf5c0" style="width: 100.0%; height: 100.0%;">BU #72 Rafik B Hariri</div>`)[0];
+                popup_2642e09978d98b594e0d68155cfe6049.setContent(html_232cbeef21add765be412123e1fbf5c0);
+            
+        
+
+        marker_44cc7a1bb718c7b176bec140a70319eb.bindPopup(popup_2642e09978d98b594e0d68155cfe6049)
+        ;
+
+        
+    
+    
+            var marker_f69d7083008931d5c2e78ea033952bfb = L.marker(
+                [42.3493957, -71.1040558],
+                {}
+            ).addTo(map_03b29fb5837163de83d99eb52dfbfee4);
+        
+    
+            var icon_8561bd853d4ac9a39547e9584621d448 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info_sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_f69d7083008931d5c2e78ea033952bfb.setIcon(icon_8561bd853d4ac9a39547e9584621d448);
+        
+    
+        var popup_04759713722693fa34de1d60cd42ed8e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_942c6d6635a407228dbf1556f65de4f4 = $(`<div id="html_942c6d6635a407228dbf1556f65de4f4" style="width: 100.0%; height: 100.0%;">BU #82 Warren Towers 35</div>`)[0];
+                popup_04759713722693fa34de1d60cd42ed8e.setContent(html_942c6d6635a407228dbf1556f65de4f4);
+            
+        
+
+        marker_f69d7083008931d5c2e78ea033952bfb.bindPopup(popup_04759713722693fa34de1d60cd42ed8e)
+        ;
+
+        
+    
+    
+            var marker_15c96afedb3fcbf0d47b6606bab2324e = L.marker(
+                [42.349815, -71.106692],
+                {}
+            ).addTo(map_03b29fb5837163de83d99eb52dfbfee4);
+        
+    
+            var icon_b4d09f205539f57699e06c0f7777cd51 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info_sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_15c96afedb3fcbf0d47b6606bab2324e.setIcon(icon_b4d09f205539f57699e06c0f7777cd51);
+        
+    
+        var popup_006059be8e0ac362f9c20dc728d7c269 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e8824b460eaea09268f9e106fb72c0ea = $(`<div id="html_e8824b460eaea09268f9e106fb72c0ea" style="width: 100.0%; height: 100.0%;">BU #87 College of Engineering</div>`)[0];
+                popup_006059be8e0ac362f9c20dc728d7c269.setContent(html_e8824b460eaea09268f9e106fb72c0ea);
+            
+        
+
+        marker_15c96afedb3fcbf0d47b6606bab2324e.bindPopup(popup_006059be8e0ac362f9c20dc728d7c269)
+        ;
+
+        
+    
+    
+            var marker_3f59d29fa6374abe371972a77045c76c = L.marker(
+                [42.3510643, -71.1075071069339],
+                {}
+            ).addTo(map_03b29fb5837163de83d99eb52dfbfee4);
+        
+    
+            var icon_6d1ff157c9db569f26da41174a2fea06 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info_sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_3f59d29fa6374abe371972a77045c76c.setIcon(icon_6d1ff157c9db569f26da41174a2fea06);
+        
+    
+        var popup_979c399d5cdf4b90911da082bc68c6f7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_154f80003fcdb363a010d013178d1acd = $(`<div id="html_154f80003fcdb363a010d013178d1acd" style="width: 100.0%; height: 100.0%;">BU #90 - School of Law</div>`)[0];
+                popup_979c399d5cdf4b90911da082bc68c6f7.setContent(html_154f80003fcdb363a010d013178d1acd);
+            
+        
+
+        marker_3f59d29fa6374abe371972a77045c76c.bindPopup(popup_979c399d5cdf4b90911da082bc68c6f7)
+        ;
+
+        
+    
+    
+            var marker_c296fa215a310d2978d9fa9d8aab6951 = L.marker(
+                [42.35097115000001, -71.10897900447887],
+                {}
+            ).addTo(map_03b29fb5837163de83d99eb52dfbfee4);
+        
+    
+            var icon_72105f742d20b0f20b314670f44cc25a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info_sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_c296fa215a310d2978d9fa9d8aab6951.setIcon(icon_72105f742d20b0f20b314670f44cc25a);
+        
+    
+        var popup_0302dd26b73252d2e2986bc731fe0ae0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_184c58ab6bb48baf07fced5f8edc62ce = $(`<div id="html_184c58ab6bb48baf07fced5f8edc62ce" style="width: 100.0%; height: 100.0%;">BU #93 George Sherman Union</div>`)[0];
+                popup_0302dd26b73252d2e2986bc731fe0ae0.setContent(html_184c58ab6bb48baf07fced5f8edc62ce);
+            
+        
+
+        marker_c296fa215a310d2978d9fa9d8aab6951.bindPopup(popup_0302dd26b73252d2e2986bc731fe0ae0)
+        ;
+
+        
+    
+    
+            var marker_9f4d7cc7eda91da4218821dd6d46397e = L.marker(
+                [42.35013155, -71.11140104490026],
+                {}
+            ).addTo(map_03b29fb5837163de83d99eb52dfbfee4);
+        
+    
+            var icon_790ca41b54ca758322794131b41da394 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info_sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_9f4d7cc7eda91da4218821dd6d46397e.setIcon(icon_790ca41b54ca758322794131b41da394);
+        
+    
+        var popup_8828347b83c283a47669d6110b774647 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_80032a6efbb7b581abc2d2a4eaa41d55 = $(`<div id="html_80032a6efbb7b581abc2d2a4eaa41d55" style="width: 100.0%; height: 100.0%;">BU #96 808 Commonwealth</div>`)[0];
+                popup_8828347b83c283a47669d6110b774647.setContent(html_80032a6efbb7b581abc2d2a4eaa41d55);
+            
+        
+
+        marker_9f4d7cc7eda91da4218821dd6d46397e.bindPopup(popup_8828347b83c283a47669d6110b774647)
+        ;
+
+        
+    
+    
+            var marker_dfcdf0e37972a124d058cd3de60f6279 = L.marker(
+                [42.35001635, -71.09979691641337],
+                {}
+            ).addTo(map_03b29fb5837163de83d99eb52dfbfee4);
+        
+    
+            var icon_dbcb5b841de4cc4a66445c5b05cbe409 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info_sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_dfcdf0e37972a124d058cd3de60f6279.setIcon(icon_dbcb5b841de4cc4a66445c5b05cbe409);
+        
+    
+        var popup_1c336f0d36ce95fbd7fa7c8087ae9c63 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2dea4f152bcf3c46da217bd97d944fa8 = $(`<div id="html_2dea4f152bcf3c46da217bd97d944fa8" style="width: 100.0%; height: 100.0%;">BU 140 Bay State Rd</div>`)[0];
+                popup_1c336f0d36ce95fbd7fa7c8087ae9c63.setContent(html_2dea4f152bcf3c46da217bd97d944fa8);
+            
+        
+
+        marker_dfcdf0e37972a124d058cd3de60f6279.bindPopup(popup_1c336f0d36ce95fbd7fa7c8087ae9c63)
+        ;
+
+        
+    
+    
+            var marker_a405dff196216764f735d3ba8872a53d = L.marker(
+                [42.35029315, -71.10449120762908],
+                {}
+            ).addTo(map_03b29fb5837163de83d99eb52dfbfee4);
+        
+    
+            var icon_fce6472805438ffb1bce234f11e94ff2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info_sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_a405dff196216764f735d3ba8872a53d.setIcon(icon_fce6472805438ffb1bce234f11e94ff2);
+        
+    
+        var popup_b9e0ffb9d2efa19fbfeebb2a7ceb3443 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6b1f65341152a4407f5696646c0595d7 = $(`<div id="html_6b1f65341152a4407f5696646c0595d7" style="width: 100.0%; height: 100.0%;">BU 685 Comm Ave</div>`)[0];
+                popup_b9e0ffb9d2efa19fbfeebb2a7ceb3443.setContent(html_6b1f65341152a4407f5696646c0595d7);
+            
+        
+
+        marker_a405dff196216764f735d3ba8872a53d.bindPopup(popup_b9e0ffb9d2efa19fbfeebb2a7ceb3443)
+        ;
+
+        
+    
+    
+            var marker_6f191a7b839b6ee125837ab55994c1b8 = L.marker(
+                [42.34326527676911, -71.10491513665227],
+                {}
+            ).addTo(map_03b29fb5837163de83d99eb52dfbfee4);
+        
+    
+            var icon_15e99a71b4be92e04b7c3fd3881c49ba = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info_sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_6f191a7b839b6ee125837ab55994c1b8.setIcon(icon_15e99a71b4be92e04b7c3fd3881c49ba);
+        
+    
+        var popup_76dca5939c8a44178b3fce6145600721 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ee0d3531376a9eda725dea661c43fb22 = $(`<div id="html_ee0d3531376a9eda725dea661c43fb22" style="width: 100.0%; height: 100.0%;">BU Fenway</div>`)[0];
+                popup_76dca5939c8a44178b3fce6145600721.setContent(html_ee0d3531376a9eda725dea661c43fb22);
+            
+        
+
+        marker_6f191a7b839b6ee125837ab55994c1b8.bindPopup(popup_76dca5939c8a44178b3fce6145600721)
+        ;
+
+        
+    
+    
+            var marker_765c761b7237ef648163784d5d12e91f = L.marker(
+                [42.31663975, -71.06461152576466],
+                {}
+            ).addTo(map_03b29fb5837163de83d99eb52dfbfee4);
+        
+    
+            var icon_ba8246a093cbd527e582e60a4aaee1d5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info_sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_765c761b7237ef648163784d5d12e91f.setIcon(icon_ba8246a093cbd527e582e60a4aaee1d5);
+        
+    
+        var popup_928870e8013a8198b05aa03773f3eff7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_57ec03457a810c46adbf524652b35c01 = $(`<div id="html_57ec03457a810c46adbf524652b35c01" style="width: 100.0%; height: 100.0%;">BU MED - 15 Stoughton</div>`)[0];
+                popup_928870e8013a8198b05aa03773f3eff7.setContent(html_57ec03457a810c46adbf524652b35c01);
+            
+        
+
+        marker_765c761b7237ef648163784d5d12e91f.bindPopup(popup_928870e8013a8198b05aa03773f3eff7)
+        ;
+
+        
+    
+    
+            var marker_bd740e5fe60335652739a75a7ec3f601 = L.marker(
+                [42.332236, -71.0754183],
+                {}
+            ).addTo(map_03b29fb5837163de83d99eb52dfbfee4);
+        
+    
+            var icon_09b685b9c5dfc42befeea28af6caa6a0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info_sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_bd740e5fe60335652739a75a7ec3f601.setIcon(icon_09b685b9c5dfc42befeea28af6caa6a0);
+        
+    
+        var popup_13458dfc9e4ee06ccd377209e99a04cd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ff925190497f82d7ad28319026b924e9 = $(`<div id="html_ff925190497f82d7ad28319026b924e9" style="width: 100.0%; height: 100.0%;">BU Med #815 Albany</div>`)[0];
+                popup_13458dfc9e4ee06ccd377209e99a04cd.setContent(html_ff925190497f82d7ad28319026b924e9);
+            
+        
+
+        marker_bd740e5fe60335652739a75a7ec3f601.bindPopup(popup_13458dfc9e4ee06ccd377209e99a04cd)
+        ;
+
+        
+    
+    
+            var marker_c5d3d90dec10f0e5155ab5d015c728f2 = L.marker(
+                [42.3354856, -71.07020941140033],
+                {}
+            ).addTo(map_03b29fb5837163de83d99eb52dfbfee4);
+        
+    
+            var icon_ee5ec53ec88e62589c787a1fb702c0ab = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info_sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_c5d3d90dec10f0e5155ab5d015c728f2.setIcon(icon_ee5ec53ec88e62589c787a1fb702c0ab);
+        
+    
+        var popup_c3213930fd522fa157b72fb6efb97756 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a54eee4eeff2cbf5fe8dfae5d9d5b9f7 = $(`<div id="html_a54eee4eeff2cbf5fe8dfae5d9d5b9f7" style="width: 100.0%; height: 100.0%;">BU Med 700</div>`)[0];
+                popup_c3213930fd522fa157b72fb6efb97756.setContent(html_a54eee4eeff2cbf5fe8dfae5d9d5b9f7);
+            
+        
+
+        marker_c5d3d90dec10f0e5155ab5d015c728f2.bindPopup(popup_c3213930fd522fa157b72fb6efb97756)
+        ;
+
+        
+    
+    
+            var marker_81d24c102cf3df3ba70e756cf76b1688 = L.marker(
+                [42.354255134481285, -71.12373068745639],
+                {}
+            ).addTo(map_03b29fb5837163de83d99eb52dfbfee4);
+        
+    
+            var icon_cbad9d7d0d95370ffdc6f302f94303c9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info_sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_81d24c102cf3df3ba70e756cf76b1688.setIcon(icon_cbad9d7d0d95370ffdc6f302f94303c9);
+        
+    
+        var popup_83e573597f7398621a0a35a6f2cfd3a6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6683fc2c654f988023ebc6fda2cac080 = $(`<div id="html_6683fc2c654f988023ebc6fda2cac080" style="width: 100.0%; height: 100.0%;">Boston University - 120 ASHFORD</div>`)[0];
+                popup_83e573597f7398621a0a35a6f2cfd3a6.setContent(html_6683fc2c654f988023ebc6fda2cac080);
+            
+        
+
+        marker_81d24c102cf3df3ba70e756cf76b1688.bindPopup(popup_83e573597f7398621a0a35a6f2cfd3a6)
+        ;
+
+        
+    
+</script>
+</html>
